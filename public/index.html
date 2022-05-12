@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;">
+
+    <meta name='apple-mobile-web-app-capable' content='yes' />
+    <meta name='full-screen' content='true' />
+    <meta name='x5-fullscreen' content='true' />
+    <meta name='360-fullscreen' content='true' />
+
+    <link rel="icon" href="{{.favicon}}">
+    <title>{{.app_name}}</title>
+    <script>
+      window.customerLink = '{{.account.online}}'
+      window.QQLink = '{{.account.qq}}'
+      window.QQNumber = ''
+      window.wechatLink = ''
+      // window.wechatNumber = ''
+      window.telegramLink = '{{.account.telegram}}'
+      window.telegramNumber = ''
+      window.whatsappLink = '{{.account.whatsApp}}'
+      window.whatsappNumber = ''
+      window.lineLink = '{{.account.line}}'
+
+      window.downloadAndroid = '{{.android_url}}'
+      
+      window.logo_url = '{{.logo_url}}'
+      window.ios_key = '{{.ios_key}}'
+      window.requestAPI = '{{.request_host}}'
+      window.shareWeb = '{{.share_url}}'
+      // 1001 哈希 1002 牛牛 1003 幸运数字 1004 庄闲
+      window.gameList = '{{.game_list}}' //['', '','', '','', '','', '']
+      window.general_id = '{{.general_id}}'
+      window.pack_no    = '{{.pack_no}}'
+      window.favicon =  '{{.favicon}}'
+    </script>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
