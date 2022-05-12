@@ -1,0 +1,246 @@
+ src\views\userData\platformData.vue :: UserList
+  
+vue ts 
+  引入 vue-property-decorator 库
+  必须引入使用 @Component 标注
+
+
+https://vue3js.cn/
+vue3 note:  
+  triggerRef 手动执行与 shallowRef 关联的任何作用 (effect)
+
+require.context
+
+vue2 diff算法：递归遍历虚拟DOM树，找到需要更新的部分
+vue3 diff：不再遍历DOM树，块内的动态绑定可以在一个平面数组中跟踪；
+	       积极检测静态节点，子树，提升到渲染函数之外，避免每次渲染重复创建
+
+绑定在 <slot> 元素上的 attribute 被称为插槽 prop， slotProps[绑定值]
+watchEffect：
+  只有在第一个await正常工作前访问到的 property 才会被追踪
+  watchEffect会在组件卸载自动停止，也可以显式停止
+  watchEffect((onInvalidate) => {  ... onInvalidate(() => {}) })
+  flush: 'sync' | 'post' | 'pre' , pre在dom更新前运行，post在dom更新后运行，sync强制效果同步触发
+
+
+
+
+
+APP在安卓或苹果系统上安装并运行；DAPP在区块链公链上开发并结合智能合约
+APP信息存储在数据服务平台，可以运营方直接修改；DAPP数据加密后存储在区块链，难以篡改
+
+能合约类似于互联网里的TCP/IP协议，网络的传输运行完全按照协议标准执行
+      合约的部署跟发送一笔交易是一样的操作
+      合约地址对应合约的代码会保存在区块链数据库，调用者
+
+
+智能合约是存储在区块链上的程序，可以协助和验证合约的谈判和执行
+
+solidity: 以太坊软件开发语言，语法类似于Javascript，用于编写智能合约
+	https://solidity-cn.readthedocs.io/zh/develop/
+
+dApp：由智能合约和客服端代码构成，智能合约运行再区块链上，客服端代码运行在浏览器中
+DApp：完全去中心化的，由以太坊网络本身自己的节点来运作的DApp
+	  DApp的数据交互由部署在区块链上的智能合约完成，具有去中心化的属性
+
+web3.0：可信计算(智能合约），可信存储(区块链)
+以太坊在比特币的基础上又前进了一大步，它不仅仅是分布式数据库，而是一个分散的、集体所有的世界计算机
+以太坊提供虚拟机和构建块
+以太坊区块链上 MakerDAO智能合约
+
+NFT公链：
+以太坊
+Flow链   Cadence编程
+BMC链   币安智能链
+NEAR链  有广泛的工具，浏览器，Cli工具，钱包应用程序，互操作性组件等
+
+NFT侧链：
+   Polygon 是以太坊的一个提交链（commit-chain），旨在支持和扩展以太坊的社区
+   Ronin 以太坊侧链
+
+NFT+DeFi(去中心化金融)+DAO 
+
+DApp是可以自主运行的应用程序，通常通过使用智能合约，在去中心化计算的区块链系统上运行
+DApp 依照其功能、性质可以分为多个类别：
+	交易所、游戏、金融、赌博、开发、存储、钱包、治理、财产、身份、媒体、社交、安全、能源、保险和健康
+
+
+metamask word:
+prefer drill current mountain output alcohol regret taste evoke destroy merge gravity
+
+tronlink word:
+hidden pizza laugh canal odor rebuild broken congress flip monster feed change
+
+
+Visual Studio Installer
+chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/home.html#initialize/select-action
+
+Solidity：
+ 变量或类型： unit, bool, address，bytes32；  mapping， event,  function
+                      struct ，
+		  modifier更便捷的校验函数的入参，新的函数体是由 modifier 本身的函数体，并用原函数体替换 `_;` 语句来组成
+
+权限： public，internal, private,  payable
+
+function (<parameter types>) {internal|external} [pure|constant|view|payable] [returns (<return types>)]
+
+数据存储位置：storage(存储) | memory | calldata 
+
+ msg (以及 tx 和 block ) 是一个神奇的全局变量；msg.sender 是当前（外部）函数调用的来源地址
+挖矿, 哈希 ，椭圆曲线密码学 ，点对点网络（P2P）， 
+
+太坊虚拟机 EVM
+	EVM 不是基于寄存器的，而是基于栈的
+
+以太坊账户： 外部账户 ,  合约账户
+
+
+Solidity 中 非布尔类型数值 不能转换为 布尔类型
+
+
+payable 修饰符要用于修饰 函数info，否则，info.value() 选项将不可用
+刷新，关闭浏览器会调用beforeMounted方法，不会调用beforeDestory方法
+
+使用json-server 简单完成CRUD模拟后台数据、nprogress vue插件、svg-sprite技术、
+
+
+智能合约示例： https://darkshadowclub.com/createyourico/
+
+
+
+优先级：Cache-Control  >  Expires 
+缓存协商： Etag，  Last-Modified
+
+
+Http：
+Accept-Encoding   <-->    Content-Encoding
+			<-->	  Vary：Accept-Encoding
+
+HTTP/2 
+  消除了应用层的队头阻塞，拥有头部压缩、二进制帧、多路复用、流量控制、服务器推送等许多新特性
+ HTTP/2多路复用：   多个请求变成多个流，请求响应数据分成多个帧，不同流中的帧交错地发送给对方 
+ HTTP/2服务端推送：浏览器发送一个请求，服务器主动向浏览器推送与这个请求相关的资源
+
+
+never 代表从不会出现的值，在函数中它通常表现为抛出异常或无法执行到终止点
+元组类型用来表示已知元素数量和类型的数组，各元素的类型不必相同，对应位置的类型需要相同
+类型断言：as 作用于编译时
+类型推断：第一次赋值时没有指定类型时
+
+元组 -- 没有指定类型的js数组
+联合类型 -- type1 | type2 
+接口
+
+泛型<T>， T表示类型占位符，当使用时再由使用的类型确定具体类型
+TypeScript类型擦除：ts编译过程中，删除 类型批注 和 接口 的过程称为类型擦除
+
+streams API 和 service worker，可以完成Fetch API 的progress功能
+
+
+
+
+ts声明文件：
+	使用ts类型检查引用第三方js文件，需产出
+	.d.ts 为后缀, declare module module_name {}
+	引用： <reference path = " runoob.d.ts" />
+
+***对象某个属性的值是计算出来的，那么它后面一位的成员必须要初始化值
+
+
+
+1，看waadmin代码，习koa || egg
+
+
+
+【randstr】->【@WgU】      【ticket】->【t03t-EG61QPjz3RIKQzRLk-9XBhZe0iT-S75zHwjcbEXci3TYb5iHrEKZRGjARJrNd3zV1sjAzCEuLjhTodNQj3Nl396nKohAW8VfIsJNBKt4vo-dDeVldCzw**】
+
+
+
+workspace 		--> 海外项目目录
+workspaceInner	-->	国内项目目录
+-------------------------------------------------------------------------------------------
+D:\workspace\thailand-admin   国内打包替换目录：  D:\workspaceInner\test\taskadmin
+D:\workspace\thailand-task\     打包替换文件夹：  	   D:\workspaceRes\test-task
+
+thailand-admin正式服打包：
+    D:\workspace\thailand-admin   打包替换目录：     D:\workspaceInner\dist\taskweb\taskadmin
+
+D:\workspaceInner\code\task	测试打包到  		  D:\workspaceInner\test\task
+
+
+
+现在：
+后台管理  国内的也用   D:\workspace\thailand-admin（http://8.134.37.165:54769/src/thailand-admin） 目录代码
+task
+国内的用 D:\workspaceInner\code\task （http://20.203.47.143:48080/web/code/task）
+海外的用 D:\workspace\thailand-task（http://8.134.37.165:54769/src/thailand-task）
+
+val
+NumClipTQEtxAqRVJBLVcbLa6jRBYQJ6kUFWkDEp5
+
+http://yk2-2-web.5gjcz.com:8178/#/keepNumConfig/dataManage
+在
+D:\workspaceInner\code\ykadmin
+
+
+
+
+node_modules\node-sass command failed：
+1， 安装python2
+2，（npm i -D sass） ||（yarn remove node-sass, yarn add sass）（决定是npm安装还是yarn安装，important)
+
+Unable to resolve dependency tree error when installing npm packages：
+(npm || yarn)  i  (--legacy-peer-deps || --force)
+
+
+
+
+预定号码租用??
+getAdditionalService:返回呼叫转移号码的附加服务。
+
+
+
+删除项:
+  微信管理
+  weChatManage
+  userData_weChatManage
+
+
+
+nodejs项目
+  登录服务端地址： http://yk2-jumpserver.yzszqb.com:54679/ui/#/
+  登录服务端账密： kerry  LtjIWvbgiYnSYd5P
+
+
+https://lanhuapp.com/web/#/item?fid=all&commonly=all
+
+
+
+
+泰国手动版
+1，底部栏出现 加粉任务    2，home页出现 申请加粉 条，隐藏 扫码条
+3，Mine页有   微信管理、个人中心   导航栏
+
+http://localhost:8088/?ic=undefined&id=undefined
+
+登录账号： task
+https://task-api.y172y.com/   					+8615901724123
+https://pt-api-xdrsdrxccs.oyg5.com/   			+8615901724123
+https://95-api-asknd834frj.qdh8.com/			13333333333
+https://dami-api-asdnjaks32432najsnd.jstztw.com/  	+8615901724222
+
+
+
+http://43.156.78.206/accounts/list   -->  test     1qaz3edc5tgb
+
+
+
+
+
+
+
+
+
+
+
+
