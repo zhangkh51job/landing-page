@@ -11,42 +11,15 @@ export default {
         }
     },
     actions:{
-        userLogin(ctx, params){
+        getLotteryMapData(ctx, params){
             const data = {
-                url: '/api/login',
+                url: '/zh/api/bet',
                 params: {
                     ...params
                 },
-                callback:(res) => {
-                    ctx.commit('userInfo', res);
-                    localStorage.setItem('token', res.token)
-                    localStorage.setItem('uid', res.uid)
-                }
             }
             return request(data)
         },
-        userRegister(ctx, params){
-            const data = {
-                url: '/api/register',
-                params: {
-                    ...params
-                },
-                callback:(res) => {
-                    ctx.commit('userInfo', res);
-                    localStorage.setItem('token', res.token)
-                    localStorage.setItem('uid', res.uid)
-                }
-            }
-            return request(data)
-        },
-        userInfo(ctx){
-            const data = {
-                url: '/api/userInfo',
-                callback: (res) => {
-                    ctx.commit('userInfo', res);
-                }
-            }
-            return request(data)
-        }
+        
     }
 }
