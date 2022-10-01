@@ -153,6 +153,19 @@ export default {
                 font-size:24px;color: #F9D88E; white-space: nowrap;
             }
     }
+    .customer{
+        position: absolute;bottom: 118px;left: -200px;
+            width: 189px;height:106px;
+            // background-color: #AB6D06;border-radius: 50%;
+            display:flex;align-items: center;justify-content: center;flex-direction: column;
+            i{
+                display:inline-block;width: 189px;height: 104px;background: url("@/assets/image/chat@2x.png") center center no-repeat;
+                background-size: contain;
+            }
+            p{
+                font-size:24px;color: #F9D88E; white-space: nowrap;
+            }
+    }
     .customer_m{
         transition: all .85s;
     }
