@@ -1,0 +1,52 @@
+figma：
+zhangkh51job@gmail.com
+kerry123456@
+
+gitlab：
+user[login]: kerry22020@163.com
+user[password]: zkh123456@
+
+30421
+
+kerry
+123qwe
+
+src\components\player\player.vue
+
+https://h5.img.trongnamsach.com/kumi/image/ced/2c4c6451309b43aba6824647859e9136.ced?auth_key=1672240520-0-0-6e3f40c59b86e5623b1e6cd5c978c7db
+
+
+git checkout -b mytest
+git push origin mytest
+git branch --set-upstream-to=origin/mytest
+git branch -a
+
+
+
+http://i47ufvjcpwiueghlfns.162v5.com/8c/ef41737565cc5b798a4b54eb877cce.ced
+
+
+32783
+
+621728 11320022 03524
+
+
+https://www.cnblogs.com/lucas27/p/14570471.html
+
+
+每日签到：
+连续签到5天可获取1-5枚钻石
+连续签到10天送VIP体验卡一张
+连续签到20天送7天VIP体验卡
+连续签到35天送随机钻石+7天VIP
+
+
+
+https://kf.herostage.top/index/index/home?visiter_id=&visiter_name=&avatar=&business_id=1&groupid=0&special=1
+
+
+
+
+
+
+

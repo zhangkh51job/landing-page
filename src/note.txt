@@ -1,0 +1,394 @@
+计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\  
+
+psd: kerry"123
+
+microsoft store
+
+git地址：http://18.163.135.71:9003/
+git账号： kerry
+git密码： kerry"1234   ----》 变更之后的
+
+蓝湖账号密码：
+ok669920@163.com
+1qaz2wsx
+
+Vetur:  Alt+Shift+F （格式化全文），Ctrl+K Ctrl+F（格式化选中代码，两个Ctrl需要同时按着）
+moreTexmoreTmoreTextextt没有更多了
+
+网赚后台管理：
+acc：mark111， pwd：123456
+禅道账号密码：
+kerry   Aa111111.
+
+预生产后台管理： http://vueoms.weicaitest.com/account_manage
+账号密码： Kerry 123456
+
+1，手机端没有做尺寸适配
+2，使用组件库来写样式，不太好还原美术设计稿
+3，有的组建太大， 组建没有划分为更好的小组件，来做到代码复用与维护方便
+
+移动端设备设置成百分比，可以按照设备的基准字体大小给编写的网页设置好最适合用户浏览的字体大小
+
+Program Code Review:
+vuex/callback.js中 多了一层回调函数 的封装
+network/index.js  请求接口封装中 区分ajaxPost 和 axiosPost
+vuex rootGetters
+
+crypto-js/enc-latin1 解析返回数据格式
+ 	src\vue-kernel\vuex\network\index.js
+  --->  src\vue-kernel\vuex\network\helper.js :: reqMake
+
+
+
+H5与原生的交互：
+ src\vue-kernel\plugins\RNEvent.js
+ src\vue-kernel\utils\platform.js
+ src\vue-kernel\plugins\my-plugin.js ：： open3Game
+
+
+
+
+id，    ms，        pt,      th,     vi对应的是什么语言啊
+印尼   马来西亚    葡萄牙    泰语    越南语
+
+主题路由封装类
+src\themes\themeWZCP\index.js
+
+//投注彩票弹出框工厂类js
+src/dialogs/DlgChatBet/index.js
+//投注彩票弹出框工厂类js中组合的vue组件
+src\dialogs\DlgChatBet\DlgChatBet.vue
+
+
+//投注彩票的弹出内容组件实例
+src\components\ComPlayBallSlide.vue
+
+**主题，注册全局组件类：
+src\themes\index.js
+
+
+团队游戏，前端对应后端的字段列表：
+src\vue-kernel\vuex\othersGames\actions.js  :::  reqOthersGameHistory  payload.play_id 确定字段 --->
+src\vue-kernel\vuex\othersGames\gameHistory.js
+
+
+接口接口
+320336 推荐彩票聊天室头部列表接口
+  组件链  src\themes\themeWZCP\templates\PChat.vue   -->
+         src\components\ComAllGameLottery.vue
+
+
+
+:style="{'background-image': ('/static/images/signIn_board_year_'+lang+''.png')}"
+
+vux组件文档，reflashText;vux panel选择长外文出问题
+挂在this.utils.platform
+ESsix class
+
+Object.getPrototypeof
+review:
+class: 类的内部所有定义的方法，都是不可枚举的; 而函数原型上定义的方法可以枚举
+	getter, setter函数是设置在属性的Descriptor对象上
+	静态方法包含this关键字，这个this指的是类，而不是实例; 静态方法可以与非静态方法重名;
+	  父类的静态方法，可以被子类继承; 静态方法也是可以从super对象上调用的
+	es6不提供私有方法和私有属性的写法
+	super指向父类的原型对象，所以定义在父类实例上的方法或属性，是无法通过super调用的--->无法调用父类属性，可以调用父类方法，this为子类this
+	静态方法之中，这时super将指向父类，而不是父类的原型对象
+	extends实质：
+		Object.setPrototypeOf(B.prototype, A.prototype)， Object.setPrototypeOf(B, A)
+		extends继承与ES5继承异同之处：
+new.target数量返回new命令作用于那个构造函数, 可以用于构造虚拟类
+
+
+
+Proxy:
+proxy的拦截必须在Proxy实例上操作，而非目标对象上操作； 或者将Proxy对象设置到object.proxy属性，便可以在object对象上调用
+如一个属性不可配置configurable,且不可写，则proxy不能修改该属性，否则报错
+get拦截： 然和属性和方法的点调用操作
+set拦截： 如果对象描述符中writabel为false， 那么proxy拦截的set方法将不起作用； proxy的set拦截必须返回true，否则会报错
+has拦截： 原对象不可配置 或者 禁止扩展，这时has如果返回false，则has拦截会报错; has拦截只对in运算符生效， 不对for...in...遍历生效
+apply拦截： 
+construct拦截： construct拦截的必须是函数，且必须返回的是一个对象，construct中的this必须是handler，而不是实例对象
+deleteProperty拦截： 
+defineProperty拦截： 目标对象不可扩展，则defineProperty不能增加目标对象上不存在的属性；
+		    如目标对象writable=false||configuration=false，则defineProperty方法不得改变这两个设置
+getOwnPropertyDescriptor拦截： 
+OwnKeys拦截： 主要拦截以下操作Object.getOwnPropertyNames,  Object.getOwnPropertySymbols,  Object.keys,  for...in
+ 	     ownKeys返回数组成员，只能是字符串或Symbol值
+getPrototypeOf拦截： 具体拦截以下操作
+		    Object.prototype._proto_， Object.prototype.isPrototypeOf,  Object.getPrototypeOf
+		    Reflect.getPrototypeOf， instanceof, 
+setPrototypeOf拦截： 会拦截Object.setPrototypeOf方法，当target不可扩展时，Object.setPrototypeOf改变target原型会报错
+isExtensible拦截： isExtensible方法拦截Object.isExtensible操作
+preventExtensions拦截： 只有target不可扩展时，即Object.isExtensible(target)为false，proxy.preventExtensions才能返回true，否则报错
+
+Proxy代理情况下，目标对象内部的this关键字会指向Proxy代理
+
+Reflect：
+设计目的： 1， 2， 3， 4
+Reflect.get(target, key, receiver), 如果target属性部署了读取函数getter，则读取函数的this绑定receiver
+Reflect.get(target, key, value, receiver), 如果target属性部署了读取函数setter，则读取函数的this绑定receiver
+Reflect.has(obj, key) 等同 key in obj
+Reflect.deleteProperty(obj, name) 等同 delete obj[name]
+Reflect.construct(target, args) 等同 new target(args)
+Reflect.getPrototypeOf(obj) 等同 Object.getPrototypeOf
+Reflect.setPrototypeOf(obj, newProto) 等同 Object.setPrototypeOf
+Reflect.apply(func, thisArg, args) <==> Function.prototype.apply.call(func, thisArg, args) 
+	<==> func.apply(thisArg, args)
+Reflect.defineProperty 等同 Object.defineProperty
+Reflect.getOwnPropertyDescriptor 等同 Object.getOwnPropertyDescriptor
+Reflect.isExtensible 等同 Object.isExtensible 
+Reflect.preventExtensions 等同 Object.preventExtensions
+Reflect.ownKeys 等同 Object.getOwnPropertyNames + Object.getOwnPropertySymbols
+
+
+
+默认的Iterator接口，部署在数据结构的Symbol.iterator属性上,可以该对象上实现Symbol.iterator接口，使该对象可遍历
+原生具备Iterator接口的数据结构： Array， Map， Set， String, arguments, NodeList
+  可以调用遍历器接口对象，也可以遍历遍历器接口对象
+默认调用Symbol.iterator接口的方法： for...of， 解构赋值， 扩展运算符...， yield*函数
+
+
+
+Symbol引入原因： 保证每个属性名都是独一无二，防止属性名冲突； 表示独一无二的值
+js内置的数据类型： string， number， boolean， null， undefined， object， symbol
+Symbol函数的参数只是表示对当前 Symbol 值的描述
+Object.getOwnPropertySymbols， Reflect.ownKeys才能获取对象的symbol属性值
+Symbol(key) <--> Symbol.for(key),  Symbol.keyFor(key)
+Symbol.for 是全局登记的，可以在不同的iframe或service worker中取得这个登记的值
+
+Symbol.hasInstance
+Symbol.isConcatSpreadable
+Symbol.species
+Symbol.match
+Symbol.toPrimitive
+Symbol.unscopables
+
+ArrayBuffer代表原始的二进制数据， 参数n，标识分配n字节内存
+TypedArray（共有9种）用来读写简单类型的二进制数据
+   	接受ArrayBuffer实例作为参数； 
+	接受普通数组作为参数，直接分配内存生成底层的ArrayBuffer实例，普通数组元素个数n表示分配n字节内存
+	接受正整数n作为参数，直接分配内存，表示分配n字节内存
+	接受另外一个TypedArray实例作为参数，复制参数数组的值，开辟一段新的内存存储
+TypedArray.of用于将参数转为一个TypedArray实例, TypedArray.of(...arr) <--等价-->TypedArray(arr)
+   TypedArray.from等同于TypedArray.of, 异处，可以用遍历函数作为第二个参数
+
+DataView(9种中不支持Uint8C) 用来读写复杂类型的二进制数据,比如第一字节是Uint8，第二第三字节是Int16
+dv.getUint8(n, b)
+dv.setUint8(n, data, b) --> b默认为false，采用大端字节，为true则采用小端字节
+
+SharedArrayBuffer，允许Worker线程与主线程共享同一块内存
+
+设计目的：
+ArrayBuffer对象的各种TypedArray --> 用来像声卡网卡之类的本机设备传送数据
+DataView视图 --> 用来处理网络设备传来的数据
+
+Uint8Array 与 Uint8ClampArray 的溢出规则 
+负数表示，负数的正数取反再加1
+
+instanceof运算符用于测试构造函数的prototype属性是否出现在对象的原型链中的任何位置;
+  instanceof运算符会调用对象的 Symbol.hasInstance 属性函数
+typeof判断变量的存储位置值（000为对象， 100为字符串， 110为布尔）
+
+尾调用：函数的最后一步调用另外一个函数
+   ---> 尾递归优化 （只在严格模式下生效，因为正常模式下有func.arguments, func.caller两个变量）
+ 
+
+that.newTab =window.open('about:blank')
+that.newTab.location.href = res.url //window.open创建的窗口不能马上为href赋值，会报location为空的异常
+
+
+TypeScript:
+ 数组，声明类型数组，存储相同类型的元素；   元组，存储不同类型的元素，元组不需要声明类型，似js数组
+ 联合类型；   接口，接口中可以将数组的索引和元素设置为不同类型
+ 继承：
+	ts子类不能继承父类的私有成员（方法和属性）和构造函数； es6中，没有权限修饰符，子类可以继承父类的static成员 
+ ts对象如动态添加函数等会报错，必须再对象定义时，指定一个空函数（做类型模板），然后才可以重写
+ ts声明文件： ts引用第三方js库时，使用ts的类型检查等功能，已经能通过ts的编译
+
+
+vue3.0 ◐
+ 所有的导航都是异步的，如果使用一个transition，需要等待ready好之后再挂载程序
+ router.isReady().then(() => app.mount('#app'))
+ <router-view>引入了v-slot API, 须使用v-slot api渲染内容元素
+
+ createApp创立的亮点由来
+ vue3中，由于函数式组件被定义为纯函数，因此异步组件的定义需要通过将其包裹在新的defineAsyncComponent方法中显式定义
+
+ 组合式API: 将同一逻辑关注点相关代码收集在一起
+ setup 的调用发生在 data property、computed property 或 methods 被解析之前， 在此方法中无法获取this
+    参数prop不能使用es6结构，只能使用toRefs解构
+    参数context是一个普通的js对象，非响应式的
+    setup是围绕beforeCreate和created运行的，在这些钩子编写的代码都直接在setup函数中编写
+ vue3可以通过一个ref函数使任何响应式变量在任何地方起响应式作用
+
+ 为增加provide值和inject值之间的响应，可以在provide值时使用ref 或 reactive
+    1,如果需要更新inect的数据，一般做法是在provide方提供一个改变响应式property的函数，将这个函数 provide(fn)
+    2,确保通过provide传递的数据不被inject的组件修改，对provide的属性， readonly
+
+ 模板引用
+  1，像往常一样声明ref  2，并从setup返回
+  与生命周期钩子的一个关键区别是， watch() 和 watchEffect()在DOM挂载或更新之前运行副作用
+
+ mixin
+   1，data（）函数合并，property发生冲突，自身组件优先
+   2，钩子函数合并，mixin对象钩子先执行
+   3，methods, components, directives将被合并为同一个对象，两个对象键名冲突时，取组件对象键值对
+ 
+ 动态指令参数 bindding.arg <---> 指令传值 binding.value
+ teleport： 1， 告诉vue, teleport这个HTML添加到指定的dom标签上 
+	2，如果teleport有子组件，则子组件还是嵌套在父组件之下，而不是出现在他被实际移动的位置
+
+ 在底层实现中，模板使用resolveDynamicComponent实现is attribute  resolveDynamicComponent <--> resolveComponent
+ render函数， withDirectives定义指令
+
+setup函数中，如果返回一个渲染模板，则可以通过expose来传递一个对接给父组件
+
+响应式函数ref， reactive的使用区别
+toRefs只会为源对象中包含的property生成ref，如果要为特定的property创建ref，则应当使用toRef
+
+
+react：
+  高阶组件是参数为组件，返回值为新组件的函数； 高阶函数接受一个函数作为参数，返回值也是函数的函数
+  组件是将 props 转换为 UI，而高阶组件是将组件转换为另一个组件
+  
+  connect是一个返回高阶组件的高阶函数
+  portal事件冒泡，遵循react树结构， 与DOM树无关（可窥视React事件与原生事件的异同）
+
+
+
+
+
+
+
+
+u200B 看不见的字符   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://v3.cn.vuejs.org/guide/composition-api-setup.html#props
+
+
+
+
+
+合并分支解决完冲突，再pull之后，报错：
+报错： Your configuration specifies to merge with the ref 'refs/heads/xxx' ， but no such ref was fetched
+解决： git push --set-upstream origin xxx 
+原因： 分支解绑后重新再绑定 https://www.v2ex.com/t/525412
+
+
+
+http://localhost:3000/myshare
+http://localhost:3000/pk10?playid=237&goback=0&subplayid=237701
+
+
+棋牌接口流程：
+ mapActions('reqHomeHotGames') 导进
+ mounted 中 引用 reqHomeHotGames, 请求调用
+ mapState 获取reqHomeHotGames请求处理之后的结果 bigClassGames
+
+
+
+
+
+开通UPG， 获取tab中UPG节点数据接口 
+	---> vue-kernel/vuex/game/actions.js：：reqHomeHotGames   cmdId: 320153
+展示各电子游戏类型中的游戏， 获取所有游戏， 再从tab中节点筛选 
+	---> src\vue-kernel\vuex\game\actions.js：：reqPlayGames  cmdId: 320146
+
+
+http://image2.typay2.com/staticQ/dianzi/593/game_5593003.png
+http://image2.typay2.com/static/dianzi/593/game_5593001.png
+http://image2.typay2.com/yulecheng/dianzi/593/cn/game_5593003.png
+http://image2.typay2.com/yulecheng/dianzi/343/cn/game_343220.png
+http://image2.typay2.com/staticQ/dianzi/593/game_5593004.png
+
+get3GameUrl ：： 314501
+
+context.rootGetters
+在带命名空间的模块注册全局action，可添加root：true, 处理函数key为handler
+  someAction{ root:true,  handler(namespaceContext, payload){ ... } }
+或通过createNamespacedHelpers，创建基于某个命名空间的辅助函数mapState, mapActions等
+  store.registerModule
+  store.unregisterModule, 不能卸载静态模块
+  store.hasModule
+可以使用require.context来动态加载或热重载所有的模块
+
+
+
+review:
+vue-pc /chart 彩种走势图
+qipai-app
+
+
+vue3迁移指南：
+    https://v3.cn.vuejs.org/guide/migration/array-refs.html
+
+icon_playxy_Sapre  icon_playxy_C_TCLSAPRE1F
+
+李兵：
+  《浏览器工作原理与实践》
+  《图解 Google V8》
+
+公钥是512位的，不太方便传播，因此协议有规定，要为公钥生成一个160位的指纹，160位的二进制写成十六进制
+大约是26到35个字符，这个字符串便是钱包地址
+
+HMAC-MD5就可以用一把发送方和接收方都有的key进行计算，而没有这把key的第三方(MD5算法给定方)是无法计算出正确的散列值的，
+这样就可以防止数据被篡改
+
+crypto-js/enc-latin1：ISO-8859-1编码，包括了书写所有西方欧洲语言不可缺少的附加字符
+
+  ASCII ---> iso8859-1 ---与GB码并列---> GB码字符 ---统一---> Unicode(16位) --节省空间--> utf-8(可变长)
+
+
+
+
+
+
+
+cust_id: 29917
+msg: "{\"item\":{\"play_name\":\"PK10\",\"sub_play_id\":34700,\"play_cname\":\"极速赛车\",\"play_des\":\"每1分钟开奖\",\"stop_sale_offset\":5,\"end_time\":1634288805000,\"start_sale_offset\":0,\"playBulletin\":{\"term_id\":123029353,\"play_name\":\"PK10\",\"term_code\":32086405,\"win_code\":\"06030105021009040807\",\"act_sell_amount\":0,\"valid_sell_amount\":0,\"wm1\":0,\"wn1\":0,\"wm2\":0,\"wn2\":0,\"wm3\":0,\"wn3\":0,\"wm4\":0,\"wn4\":0,\"wm5\":0,\"wn5\":0,\"wm6\":0,\"wn6\":0,\"wm7\":0,\"wn7\":0,\"wm8\":0,\"wn8\":0,\"wm9\":0,\"wn9\":0,\"wm10\":0,\"wn10\":0,\"wm11\":0,\"wn11\":0,\"wm12\":0,\"wn12\":0,\"wm13\":0,\"wn13\":0,\"wm14\":0,\"wn14\":0,\"wm15\":0,\"wn15\":0,\"wm16\":0,\"wn16\":0,\"wm17\":0,\"wn17\":0,\"wm18\":0,\"wn18\":0,\"wm19\":0,\"wn19\":0,\"wm20\":0,\"wn20\":0,\"state\":1,\"oper_code\":\"scheduler\",\"create_time\":1634288735000,\"state_time\":1634288735000,\"open_time\":1634288733000,\"part_mon\":288,\"begin_time\":1634288730000,\"partition\":0,\"revoke\":0,\"back_roll\":0,\"revoke_count\":0,\"open_time_long\":0,\"play_stop_sale_offset\":0},\"term_code\":32086406,\"begin_time\":1634288731000,\"play_collection\":1,\"play_cat\":1,\"type\":3,\"play_state\":1,\"hot_val\":2000,\"is_top\":1,\"play_id\":34,\"img_url\":\"\",\"sys_time\":1634288754000,\"timeout\":false,\"stopTime\":1634288803077,\"gameImgUrl\":\"http://image2.typay2.com/staticQ/caipiao/default/cn/icon_play_34.png\",\"_isTiancheng\":\"0\",\"imgUrl\":\"http://image2.typay2.com/staticQ/caipiao/default/i18n_locale/icon_play_34.png\"},\"play_name\":\"PK10\",\"sub_play_id\":34700,\"play_cname\":\"极速赛车\",\"play_des\":\"每1分钟开奖\",\"stop_sale_offset\":5,\"end_time\":1634288805000,\"start_sale_offset\":0,\"playBulletin\":{\"term_id\":123029353,\"play_name\":\"PK10\",\"term_code\":32086405,\"win_code\":\"06030105021009040807\",\"act_sell_amount\":0,\"valid_sell_amount\":0,\"wm1\":0,\"wn1\":0,\"wm2\":0,\"wn2\":0,\"wm3\":0,\"wn3\":0,\"wm4\":0,\"wn4\":0,\"wm5\":0,\"wn5\":0,\"wm6\":0,\"wn6\":0,\"wm7\":0,\"wn7\":0,\"wm8\":0,\"wn8\":0,\"wm9\":0,\"wn9\":0,\"wm10\":0,\"wn10\":0,\"wm11\":0,\"wn11\":0,\"wm12\":0,\"wn12\":0,\"wm13\":0,\"wn13\":0,\"wm14\":0,\"wn14\":0,\"wm15\":0,\"wn15\":0,\"wm16\":0,\"wn16\":0,\"wm17\":0,\"wn17\":0,\"wm18\":0,\"wn18\":0,\"wm19\":0,\"wn19\":0,\"wm20\":0,\"wn20\":0,\"state\":1,\"oper_code\":\"scheduler\",\"create_time\":1634288735000,\"state_time\":1634288735000,\"open_time\":1634288733000,\"part_mon\":288,\"begin_time\":1634288730000,\"partition\":0,\"revoke\":0,\"back_roll\":0,\"revoke_count\":0,\"open_time_long\":0,\"play_stop_sale_offset\":0},\"term_code\":32086406,\"begin_time\":1634288731000,\"play_collection\":1,\"play_cat\":1,\"type\":3,\"play_state\":1,\"hot_val\":2000,\"is_top\":1,\"play_id\":34,\"img_url\":\"\",\"sys_time\":1634288754000,\"timeout\":false,\"stopTime\":1634288803077,\"gameImgUrl\":\"http://image2.typay2.com/staticQ/caipiao/default/cn/icon_play_34.png\",\"_isTiancheng\":\"0\",\"imgUrl\":\"http://image2.typay2.com/staticQ/caipiao/default/i18n_locale/icon_play_34.png\",\"_type\":16}"
+play_cat: 1
+play_id: 34
+status: 1
+tid: 3
+type: 16  
+
+
+
+
+
+vue-kernel/vuex/othersGames/actions.js 	  ：： reqOthersGameHistory ：historyUtil.getTitle(tempData, gameUtil.showTitle)
+vue-kernel/vuex/othersGames/historyUtils.js   ：： getTitle
+vue-kernel/vuex/othersGames/helpersOthersGames.js   ：： getGameName
+
+
+
+
+
+
+
+, color: tone[themeColor].buttonTextColor, 
+
+
+
+键盘快捷键：
+ alt + tab 
+ win + tab
+或者： alt + esc
+
+
+
+
