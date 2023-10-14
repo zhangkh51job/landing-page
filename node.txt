@@ -139,6 +139,55 @@ TypeScript类型擦除：ts编译过程中，删除 类型批注 和 接口 的�
 streams API 和 service worker，可以完成Fetch API 的progress功能
 
 
+泛型约束：
+
+declare namespace base ｛ export type xxx=string｝
+
+ts公共的类型：
+ Awaited<Type>,  
+ Partial<Type>,  
+ Required<Type>,  
+ Readonly<Type>,  
+ Record<Keys, Type>,
+ Pick<Type, Keys>      <-----reversed----->        Omit<Type, Keys>
+ Exclude<UnionType, ExcludedMembers>   
+ Extract<Type, Union>
+ NonNullable<Type>
+
+ Parameters<Type>: 根据函数类型的参数中使用的类型构造元组类型Type
+
+ ConstructorParameters<Type>: 从构造函数类型的类型构造元组或数组类型
+
+ ReturnType<Type>: 构造一个由 function 的返回类型组成的类型Type
+ 固有字符串操作类型：
+  Uppercase<StringType>
+ Lowercase<StringType>
+ Capitalize<StringType>
+ Uncapitalize<StringType>
+
+
+ts模块发布：
+  如果类型声明文件名为index.d.ts，且在项目的根目录中，那就不需要在package.json里面注明了，否则需要再package.json中types字段指定
+
+///：除了拆分类型声明文件，三斜杠命令也可以用于普通脚本加载类型声明文件
+
+
+tsconfig.json
+ files: 必须逐一列出文件，不支持文件匹配; 如果文件较多，建议使用include和exclude属性
+  references属性是一个数组，数组成员为对象，适合一个大项目由许多小项目构成的情况，用来设置需要引用的底层项目
+ paths: typescript的基准目录，也就是 TypeScript 如何导入require或imports语句加载的模块
+
+
+keyof 运算符返回的键名联合类型string|number|symbol
+Capitalize<T>：一个原生的工具泛型
+
+
+
+vite: 
+  至少一个顶级的 import 或 export，即使它只是 export {}。如果扩展被放在模块之外，它将覆盖原始类型，而不是扩展!
+
+
+
 
 
 ts声明文件：

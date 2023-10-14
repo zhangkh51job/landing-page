@@ -1,0 +1,564 @@
+Skype:
+   pt-key@mail.idcduty.com
+   key123456
+
+
+google账号:
+   pt-key@mail.idcduty.com
+   key123456789
+
+
+http://185.167.15.153:11280/users/sign_in
+key2023    Aa147258
+
+
+阿莫西林：成人口服1次0.5g或0.25g两粒， 间隔6-8小时一次，一日不超过4g
+	 适用于敏感菌所致的感染溶血链球菌、大肠埃希菌、奇异变形杆菌、肺炎链球菌或粪肠球菌所致的泌尿生殖道感染
+	  这个药物要定期持续服用才有效果
+大败毒胶囊：口服，一次5粒，一日4次。
+	  清血败毒，消肿止痛。用于脏腑毒热，血液不清引起的梅毒，血淋，白浊，尿道刺痛，大便秘结，疥疮，痈疽疮疡，红肿疼痛
+感康：   建议一天可以吃两次，一次一粒，不建议过量的服用；一般考虑服药3~5天左右，如果没有效果的话就不建议再使用了
+       感康主要用于治疗风寒感冒,也可用于风热感冒，能够缓解普通感冒或流行性感冒所导致的发热、疼痛等症状
+
+
+
+
+
+
+
+
+http://185.167.15.154/kgsports/kgsport-lottery-3.git
+pt-key 12345678
+
+
+
+https://cms.kg855.com/
+aben0002   aaa111
+
+
+
+?token=eyJhbGciOiJIUzUxMiJ9.eyJhdXRoZW50aWNhdGVkIjp0cnVlLCJzdWIiOiJhYmVuMDAwMiIsImV4cCI6MTY4NDIzMjkyNywiaWF0IjoxNjgyNDMyOTI3fQ.lRFoaIVLaATdASf_ImVSQK7sBT0cl6wVSqS8LwwRcP9GrDN7782FV81cOOXtM2wGnY0sthQ2a5PGsXOY00xRcQ&deviceId=c4d08ff27f0687590a2e0dd677442e17
+
+
+
+https://cms.kg855.com/static/mylott/home?token=eyJhbGciOiJIUzUxMiJ9.eyJhdXRoZW50aWNhdGVkIjp0cnVlLCJzdWIiOiJhYmVuMDAwMiIsImV4cCI6MTY4NDIzMjkyNywiaWF0IjoxNjgyNDMyOTI3fQ.lRFoaIVLaATdASf_ImVSQK7sBT0cl6wVSqS8LwwRcP9GrDN7782FV81cOOXtM2wGnY0sthQ2a5PGsXOY00xRcQ&deviceId=c4d08ff27f0687590a2e0dd677442e17
+
+
+
+
+
+
+@vitejs/plugin-vue
+@vitejs/plugin-vue-jsx
+
+
+
+问题：
+首页点击更多
+彩票指南 中 tab其他项文字
+缺少公司董事
+
+
+
+
+220422212066603
+
+religion religion religion religion religion religion
+religion religion
+
+
+https://api2-kgsit.kg855.com/api/new-lottery/period?lottery=AMLUCKY5
+
+
+首页 ，收藏是1，取消传0
+
+投注页问题：
+1，调用lastResult ，之后不需要再调用latelyResults 
+2，memberInfo初始时调用一次就够了
+3，/new-lottery/latelyResults 实为 /new-lottery/allResultMap 接口
+
+
+async,await 使用两层或超过两层的  需要优化，只能使用一层，其余使用回调函数，否则JS引擎需要整块
+代码执行完，才会执行下面的代码,会暂时阻塞浏览器
+
+
+
+LotteryOdds.hook.ts :: betAmountEnter
+
+
+每个彩种投注倍率 名称
+D:\workspace\kgsport-lottery-3\src\view\PC\components\Odds\Odds.tsx			--->
+D:\workspace\kgsport-lottery-3\src\view\PC\components\BetList2\BetList2.tsx        	--->
+D:\workspace\kgsport-lottery-3\src\view\PC\components\PlayBetNum1\PlayBetNum1.tsx	--->
+
+
+
+D:\workspace\kgsport-lottery-3\dist\mylott\PC\components
+D:\workspace\kgsport-lottery-3\public\PC\components
+
+
+D:\workspace\kgsport-lottery-3\dist\mylott\PC\components
+D:\workspace\kgsport-lottery-3\public\PC\components
+D:\workspace\kgsport-lottery-3\src\view\PC\assets
+
+
+crisis crisis crisic crisic
+crisic crisis crisic crisic crisic crisic
+crisic crisis crisis
+utilize utilize utilize utilize utilize utilize 
+utilize utilize utilize utilize utilize utilize
+utilize utilize utilize utilize utilize utilize
+utilize utilize crisis crisis crisis crisis crisis
+crisis crisis perhaps perhaps perhaps perhaps perhaps
+perhaps perhaps civilian civilian civilian civilian civilian
+civilian civilian civilian civilian civilian civilian civilian
+civilian civilian civilian budget budget budget budget budget budget
+budget budget budget budget budget budget budget budget budget budget budget budget
+budget budget budget budget budget budget budget budget budget budget budget budget
+budget patch patch patch patch patch patch patch patch patch
+estate estate estate estate estate estate estate estate estate circulate circulate
+circulate circulate circulate circulate circulate circulate circualte circulate circulate
+circulate trivial trivial trivial trivial trivial trivial trivial trivial trivial trivial trivial
+trivial trivial trivial trivial trivial trivial trivial trivial trivial trivial trivial trivial
+trivial trivial trivial trivial trivial debt loan loan loan loan loan loan loan loan loan loan loan
+loan loan loans loans loans loans loans loans loans loans woking capital loans 
+working capital loans working capital loans working capital loans
+raise cash raise cash raish cash raise cach; raise cash; raise cash
+raise cash; raise cash; raise cash; raise cash; raise cash; raise cash; raise cash;
+raise cash; raise cash; raise cash;environment environment environment environment
+environment environment environment environment environment environment environment
+environment environment environment environment environment environment environment
+environment environment environment environment environment environment environment
+
+
+ApigetTypeList 处理有三层遍历：
+/api/new-lottery/barList     lotteryStatus 
+/api/new-lottery/collectList  只有status， lotteryCode， 能不能两个接口合并？？
+
+
+美洲幸运8 :: 连码
+src\view\PC\components\Odds\Odds.tsx  		-->
+src\view\PC\components\Odds\KL10\KL10.tsx   	--->
+src\view\PC\components\BetList3\BetList3.tsx	--->
+src\view\PC\components\PlayBetNum2\PlayBetNum2.tsx -->
+src\view\PC\components\betNumList\KL10BetNum\KL10BetNum.tsx -->
+
+
+3D 组选三：
+src\view\PC\Bet\Bet.tsx -->
+src\view\PC\components\Odds\Odds.tsx -->
+src\view\PC\components\Odds\3D\3D.tsx  -->
+src\view\PC\components\BetList3\BetList3.tsx  -->
+src\view\PC\components\PlayBetNum2\PlayBetNum2.tsx  -->
+
+
+HTTP排队情况：
+1，低优先级如图片，视频让位高优先级，如js， css，html文件
+2，浏览器最大同时请求通常6个TCP，超过则排队
+3，网络进程在为数据分配磁盘空间时，新的HTTP请求也需要等待磁盘分配结束才发起请求
+
+
+HTTP排队：域名分片； 升级到HTTP2
+
+
+
+
+极速蛋蛋  :: 包三
+
+无输入框的选中    src\hooks\LotteryOdds.hook.ts :: setSelectBetNum
+
+store.bets.push
+
+
+
+store.bets.push({
+				amount: defaultAmount.value,
+				contents: betNum.key,
+				game: betNum.game, 
+				detailGameName: state.slideOddsList[betNum.oddsKey]?.aliasName+'/'+betNum.value,
+				odds: lotteryOdds.value[`${betNum.oddsKey}`] || 0,
+			})
+
+
+
+
+
+
+
+
+
+
+http://172.16.8.163:9527/mylott/bet?token=eyJhbGciOiJIUzUxMiJ9.eyJhdXRoZW50aWNhdGVkIjp0cnVlLCJzdWIiOiJhYmVuMDAwMiIsImV4cCI6MTY4Nzc0MzQ5NiwiaWF0IjoxNjg1OTQzNDk2fQ.RWqTQ5KAG5SxlKtxVF7aVwciEFruvWQFH3nJQ-CwyJD2Pa72-jr82unjothxxkhjxT6Kw4xJO8vD9N3F50YL3Q&deviceId=c4d08ff27f0687590a2e0dd677442e17&classType=LHC&toNext=roadmap
+
+
+
+
+2001
+1998
+1992
+1991
+spoon spoon spoon spoon spoon spoon spoon spoon spoon spoon spoon spoon spoon spoon spoon spoon spoon
+spoon spoon spoon spoon spoon spoon spoon spoon spoon 
+
+当 meta 和 header 头中同时设置一个内容的时候，header 头中的会覆盖 meta 中的信息优先使用。
+
+
+
+
+http://172.16.8.163:9527/mylott/m/bet?token=eyJhbGciOiJIUzUxMiJ9.eyJhdXRoZW50aWNhdGVkIjp0cnVlLCJzdWIiOiJhYmVuMDAwMiIsImV4cCI6MTY4Nzc0MzQ5NiwiaWF0IjoxNjg1OTQzNDk2fQ.RWqTQ5KAG5SxlKtxVF7aVwciEFruvWQFH3nJQ-CwyJD2Pa72-jr82unjothxxkhjxT6Kw4xJO8vD9N3F50YL3Q&deviceId=c4d08ff27f0687590a2e0dd677442e17&classType=3D&toNext=home
+
+http://172.16.9.77:3033/h5agent/generalView
+ives     ivesives
+
+
+git submodule update --init --recursive
+
+first time:
+git submodule update --init --recursive
+
+git submodule update --recursive
+or
+git pull --recurse-submodules
+
+
+
+const moduleNames = ["agent", "user", "common", "message", "mine", "funds", "game"];
+
+
+
+
+
+gulp review:
+希望以最大并发来运行的任务（tasks），可以使用 parallel() 方法将它们组合起来,
+series()顺序执行task
+
+task返回值： stream、promise、event emitter、child process 或 observable
+
+gulp插件应当总是用来转换文件的；其他操作都应该使用（非插件的） Node 模块或库来实现。
+插件的操作不应该针对特定文件类型
+
+文件元数据作为 Node 的 fs.Stats 实例提供。它是 Vinyl 实例的 stat 属性，并在内部用于确定 Vinyl 对象是否表示目录或符号链接（symbolic link）
+funcions:
+lastRun(): 当与 src() 组合时，通过跳过自上次成功完成任务以来没有更 改的文件，使增量构建能够加快执行时间
+
+
+nodejs review:
+
+
+
+国际化管理后台：
+E:\gameplat-admin-ui\  :
+  routerPlugin.js  ::  src\router\_routermap.js
+
+src\utils\request.js
+src\store\modules\permission.js
+
+账号级路由 权限  src\store\modules\user.js :: buildMenus
+
+v-permission="['game:gameBetRecord:view']" 跳转权限
+
+live-user-day-report
+
+
+获取翻译文件接口：api/admin/messageI18n/international/list
+src\store\modules\app.js :: SET_LAUGUAGE_LIST  将语言存入 indexedDB中
+拉取多语言页数： api/admin/common/config :: data.page
+
+
+
+teamNum: 团队人数，
+teamValidNum: 团队有效人数，
+teamRecharge: 团队充值
+teamRechargeRate: 团队充值率
+teamFirstRecharge： 团队首充
+teamFirstRechargeNum: 团队首充人数
+teamContinueRecharge： 团队连续充值
+teamContinueRechargeNum： 团队连续充值人数
+teamContinueRechargeRate： 团队连续充值率
+teamAverageRecharge： 团队平均充值
+teamBet：	团队投注
+teamBetNum：	团队投注人数
+teamWithdraw：	团队提现
+teamWithdrawNum：团队提现人数
+promotionDetail： 推广详情
+tuiGuangDetailList： 推广详情列表
+tuiGuangDetail：		推广详情
+lowerLevelRegisterNum：	下级注册人数
+lowerLevelRechargeNum：	下级充值人数
+lowerLevelRealRegisterNum： 下级实际充值人数
+lowerLevelRechargeAmount：下级充值金额
+lowerLevelBetAmount：	下级投注金额
+lowerLevelWithdrawAmount：下级提现金额
+memberDetail：		会员详情
+
+https://intl-jenkins.kg822.com/		key  Aa159753   
+intl-gameplat-admin-ui_int102  国际化 管理后台  打包项目
+
+
+
+
+国际化代理后台：
+首页统计：/api/agent/home/statistics
+
+
+
+agent_promotion_detail： 	推广详情
+agent_statics_bonusAmount：	红利
+agent_statics_rebateAmount： 	返水
+
+agent_mango_vipLevel: VIP等级
+
+
+
+
+cms\cms-service\src\api\agent.api.ts  --->
+cms\cms-service\src\agent\AgentHome.service.ts  --->
+cms\cms-service\src\agent\index.ts   -->  (export all）
+
+anna036
+
+aruiva
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+一维语言的英语用 字母组合 去拼读这个世界，就体现了声音特质。
+不管你是哪国语言，只要有声音，英语都可以收录进来 :: kale （电脑卡了）
+
+英语主要占了 声音 这个优势。本质而言，语言首先是声音。声音变化越多，字母组合就显得越灵活越好用！
+
+先听声音和节奏。大脑自动跟上节奏，预判力就会增加。整句整句从  语音语调节奏力度  停顿情绪到位地预判和输出，基本处于一种
+享受“自动驾驶”状态。
+整个句子，分配重点，把控节奏 -->  听力就是预判力！
+
+外面有无数的人名，地名，建筑名品牌名，这些本质而言都是声音组合，为什么不读他原来的文字而要用中文翻译？
+
+
+
+
+
+英语音节，音节拆分规则；元辅音发音规则
+integrate --> in'te'grat(e)
+why?
+economy  ---> e'co'  no'my，  o在c前，一般都短元音；又比如column
+photo    ---> pho'  to
+
+发音变迁
+de'po'sit  --> de'po'si'tion
+
+au'thor  --> au'thori(ə)ty
+
+
+
+比如rabbit，它的音节划分是rab / bit ，重读在第一位，那么第一个rab就属于重读闭音节
+
+例：
+super  --> su'per
+supper --> sup'per
+
+fellow  --> fel'low
+
+e/co/nomy
+pho/to
+
+tem'po'ra'ry
+
+
+开音节：
+   1, 发音的元音字母结尾的音节
+  2, 以"元音字母+辅音字母（r除外）+不发音的e"结尾的音节
+
+闭音节：
+   以一个或几个辅音字母（r除外）结尾,而中间只有一个元音字母的音节称为闭音节
+
+1.单音节：音标中含有一个元音；（单音节   全是   省略了重读符号的重音节）
+
+
+有几个元音音素（  不是   元音字母），就有几个音节
+
+
+音标：音素的记录符号
+
+音素：
+元音（20）：
+长元音（5个）：/ɑ:/ /ɔ:/ /ɜ:/ /i:/ /u:/
+短元音（7个）：/ʌ/  /ɒ/  /ə/  /ɪ/  /ʊ/    +    /e/ /æ/
+双元音（8个）： /eɪ/ /aɪ/ /ɔɪ/ /əʊ/ /aʊ/ /ɪə/ /eə/ /ʊə/
+
+辅音（28）：
+发音时声带不振动的辅音称为清辅音
+发音时声带振动的辅音称为浊辅音
+清辅音（11个）：   /p/ /t/ /k/ /f/ /θ/ /s/ /ʃ/ /h/ /tʃ/ /ts/ /tr/
+浊辅音（17个）:   /b/ /d/ /g/ /v/ /ð/ /z/ /ʒ/ /r/ /dʒ/ /dz/ /dr/     +   /j/ /w/ /m/ /n/ /ŋ/ /l/
+
+
+*** 两个清辅音在一起时，后面的清辅音要发和它相对应的浊辅音 :: stand, street, spell, sky ...
+重读闭音节且结尾只有一个辅音字母的单词，改变时态时要双写
+
+
+“一符一音”为原则，即“一个音素一个符号，一个符号一个音素”是  读好英语单词必备的发音方法;
+熟练掌握音标，才能学起来易如反掌，做到“见其形读其音，听其音写其形”
+
+只看音标就知道是哪个单词 + 能听到单词的发音就知道它的音标组成
+
+重读规则：
+0. 单音节   全是   省略了重读符号的重音节
+1．双音节 动词   倾向于第二个音节重读
+2．动词以外  的双音节词，倾向于第一个音节重读
+3.某些单词既可以作动词，又可以作名词或形容词。作动词时，第二个音节重读；作名词或形容词时，第一个音节重读
+4，多音节词一般倾向于倒数第三个音节重
+
+
+以－ee，－eer，－ese，－ette，－oon等后缀结尾的词，不论是双音节词还是多音节词，一般均是最后一个音节重读 :: Japanese
+
+every  /ˈev.ri/
+
+'和.  可以分开音节
+/dɪˈpɒz.ɪt/
+/ˌdep.əˈzɪʃ.ən/  ::   四个音节以上的单词会出现两个重音， “ˈ”是第一重音， “ˌ”是第二重音
+
+key500106@gmail.com
+
+confidence: i don't think i cannot master english! i don't think i cannot understand other's speaking english!
+executive ::      /ɪɡˈzek.jə.tɪv/
+execute  ::    /ˈek.sɪ.kjuːt/
+excuse	::     /ɪkˈskjuːz/
+
+foreign ::      /ˈfɒr.ən/
+children ::     /ˈtʃɪl.drən/
+image   ::      /ˈɪm.ɪdʒ/
+main	::	/meɪn/
+
+major	::	/ˈmeɪ.dʒər/
+majority :: 	/məˈdʒɒr.ə.ti/
+
+Mr	::	/ˈmɪs.tər/
+Mrs	::	/ˈmɪs.ɪz/
+
+necessary ::	/ˈnes.ə.ser.i/
+parent	::	/ˈpeə.rənt/
+
+reality	::	/riˈæl.ə.ti/
+realize	::	/ˈrɪə.laɪz/
+
+rexxxx,  
+读 re的很少，仅
+recognize ::	/ˈrek.əɡ.naɪz/ 
+represent ::	/ˌrep.rɪˈzent/
+rest
+一般都读 ri
+recently  ::	/ˈriː.sənt.li/
+
+south	::	/saʊθ/
+southern ::	/ˈsʌð.ən/
+
+st 中  t都发d 的浊辅音
+status	:: 	/ˈsteɪ.təs/  t发d的浊辅音
+
+crime	::	/kraɪm/
+criminal  ::	/ˈkrɪm.ɪ.nəl/
+
+up	::	/ʌp/
+upon	::	/əˈpɒn/
+
+whole	::	/həʊl/
+
+analysis ::	/əˈnæləsɪs/
+analyst  ::	/ˈænəlɪst/
+analyse  ::	/ˈænəlaɪz/
+
+absence	::	/ˈæbsəns/
+accept	::	/əkˈsept/  a开头，什么时候读ə, 什么时候读æk?
+access	::	/ˈækses/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+represent represent represent represent represent represent represent
+represent represent represent represent represent represent
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+adequate adequate adequate adequate adequate adequate adequate adequate
+adequate adequate adequate adequate
+
+
+adolescent adolescent adolescent a'do'le'scent
+adolescent adolescent
+
+
+
+
+
+millionaire millionaire millionaire
+
+
+heritage heritage heritage  heritage heritage heritage heritage heritage
+
+disinherit disinherit 
+
+
+elegance elegance elegance 
+physician physician  physician physician
+
+
+
+cre'dit
+
+
+
+medium medium medium
+
+frequency frequency frequency frequency frequency
+influence
+
+adult
+quantity quantity quantity quantity quantity quantity 
+
+
+architect architect architect architect
+architect a
+
+
+
+
+
+
