@@ -61,7 +61,6 @@ https://cms.kg855.com/static/mylott/home?token=eyJhbGciOiJIUzUxMiJ9.eyJhdXRoZW50
 
 
 
-220422212066603
 
 religion religion religion religion religion religion
 religion religion
@@ -70,7 +69,7 @@ religion religion
 https://api2-kgsit.kg855.com/api/new-lottery/period?lottery=AMLUCKY5
 
 
-首页 ，收藏是1，取消传0
+
 
 投注页问题：
 1，调用lastResult ，之后不需要再调用latelyResults 
@@ -81,6 +80,76 @@ https://api2-kgsit.kg855.com/api/new-lottery/period?lottery=AMLUCKY5
 async,await 使用两层或超过两层的  需要优化，只能使用一层，其余使用回调函数，否则JS引擎需要整块
 代码执行完，才会执行下面的代码,会暂时阻塞浏览器
 
+
+review vite:
+频率较高的插件：
+  vite-plugin-copy-dest，
+ vite-plugin-runtime-public-path： 在运行时修改 base
+
+vite需要将路径规范化处理，规范函数  normalizePath::vite
+
+  
+至少一个顶级的 import 或 export，即使它只是 export {}。如果扩展被放在模块之外，它将覆盖原始类型，而不是扩展！
+
+vite客服端和服务端可以互相发送事件：
+configureServer钩子函数:: server.ws.[on/send] <-----> import.meta.hot.[on/send]
+
+
+
+
+http2：
+ 一：多路复用
+	1，同一个域名下所有通信都在单个连接上完成，该单个连接为双向数据流管道，发起请求和响应无需先后次序
+	2，数据流以消息形式发送，消息由帧组成，帧之间无需次序，而是在接收到根据帧首部从新组装
+ 二：首部压缩
+	多路复用一次TCP链接处理多次HTTP请求； 首部压缩则大大减少多个HTTP请求产生的重复头部数据消耗。
+ 三：二进制分帧
+ 四：服务器推送
+
+
+
+intersection observer 与 Element.prototype.getBoundingClientRect()比较：
+1，getBoundingClientRect由主线程运行，较大消耗资源；intersection由浏览器自行优化，非主线程执行
+2，IntersectionObserver的回调函数在主线程运行，如果回调函数耗时，可以使用window.requestIdleCallback()
+
+
+
+E:\kgsport-cms-intl\cms\cms-service  中的声明类型 单独放在 xxx.interface.d.ts中
+E:\kgsport-cms-intl\core 		   中的声明文件附带在 xxx.hook.ts中
+blocks中组件要素，material.json中source > src/index.ts, 指定当前组件
+
+
+any与unkonw：
+1，unkonw是top type，any既是top type，又是bottom type
+2，如果不缩小unkonw类型，就无法对unknow类型执行任何操作（类型断言，类型收缩）
+void与never：
+void表示返回值为空，void类型可以被赋值（在strictNullChecks为false时）
+never表示永远不存在值的类型，只能赋值给另外一个never
+
+infer 表示在 extends 条件语句中待推断的类型变量
+如ts内置的高阶类型：
+  type ConstructorParameters<T extends new (...args: any[]) => any> = T extends new (...args: infer P) => any  ? P : never;
+      type ReturnType<T> = T extends (...args: any[]) => infer P ? P : any;
+      type Constructor = new (...args: any[]) => any;
+
+索引签名，表明可以使用额外的属性：
+ let x: { foo: number, [x: string]: any }
+1, 声明一个索引签名时，所有明确的成员都必须符合索引签名
+
+
+
+
+
+
+
+
+优化：
+1，有的接口之间没有顺序关系，一个接口请求到结果再请求另外一个接口
+如： useConfig.hook.ts :: setSystemConfigs 中  requestIpArea 与  Api.ConfigService.systemConfig()
+   接口重复请求：/api/activity/titleList
+2，接口不必在onMounted中请求
+3，开启zip压缩，js,css能小一半
+4，资源图片多开两个域名存放，这样可以突破浏览器最多只能并行同时加载5,6张图片的限制
 
 
 LotteryOdds.hook.ts :: betAmountEnter
@@ -222,7 +291,6 @@ git pull --recurse-submodules
 
 
 
-const moduleNames = ["agent", "user", "common", "message", "mine", "funds", "game"];
 
 
 
@@ -266,30 +334,7 @@ src\store\modules\app.js :: SET_LAUGUAGE_LIST  将语言存入 indexedDB中
 
 
 
-teamNum: 团队人数，
-teamValidNum: 团队有效人数，
-teamRecharge: 团队充值
-teamRechargeRate: 团队充值率
-teamFirstRecharge： 团队首充
-teamFirstRechargeNum: 团队首充人数
-teamContinueRecharge： 团队连续充值
-teamContinueRechargeNum： 团队连续充值人数
-teamContinueRechargeRate： 团队连续充值率
-teamAverageRecharge： 团队平均充值
-teamBet：	团队投注
-teamBetNum：	团队投注人数
-teamWithdraw：	团队提现
-teamWithdrawNum：团队提现人数
-promotionDetail： 推广详情
-tuiGuangDetailList： 推广详情列表
-tuiGuangDetail：		推广详情
-lowerLevelRegisterNum：	下级注册人数
-lowerLevelRechargeNum：	下级充值人数
-lowerLevelRealRegisterNum： 下级实际充值人数
-lowerLevelRechargeAmount：下级充值金额
-lowerLevelBetAmount：	下级投注金额
-lowerLevelWithdrawAmount：下级提现金额
-memberDetail：		会员详情
+
 
 https://intl-jenkins.kg822.com/		key  Aa159753   
 intl-gameplat-admin-ui_int102  国际化 管理后台  打包项目
@@ -302,11 +347,6 @@ intl-gameplat-admin-ui_int102  国际化 管理后台  打包项目
 
 
 
-agent_promotion_detail： 	推广详情
-agent_statics_bonusAmount：	红利
-agent_statics_rebateAmount： 	返水
-
-agent_mango_vipLevel: VIP等级
 
 
 
@@ -315,9 +355,6 @@ cms\cms-service\src\api\agent.api.ts  --->
 cms\cms-service\src\agent\AgentHome.service.ts  --->
 cms\cms-service\src\agent\index.ts   -->  (export all）
 
-anna036
-
-aruiva
 
 
 
@@ -491,7 +528,7 @@ access	::	/ˈækses/
 
 
 
-
+vvvvvvvvvvvvvvvvvvvvvv
 
 
 

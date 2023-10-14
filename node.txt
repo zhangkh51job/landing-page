@@ -139,6 +139,8 @@ TypeScript类型擦除：ts编译过程中，删除 类型批注 和 接口 的�
 streams API 和 service worker，可以完成Fetch API 的progress功能
 
 
+////////////////////////////////typescript\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
 泛型约束：
 
 declare namespace base ｛ export type xxx=string｝
@@ -180,6 +182,34 @@ tsconfig.json
 
 keyof 运算符返回的键名联合类型string|number|symbol
 Capitalize<T>：一个原生的工具泛型
+
+any与unkonw：
+1，unkonw是top type，any既是top type，又是bottom type
+2，如果不缩小unkonw类型，就无法对unknow类型执行任何操作（类型断言，类型收缩）
+void与never：
+void表示返回值为空，void类型可以被赋值（在strictNullChecks为false时）
+never表示永远不存在值的类型，只能赋值给另外一个never
+
+infer 表示在 extends 条件语句中待推断的类型变量
+如ts内置的高阶类型：
+  type ConstructorParameters<T extends new (...args: any[]) => any> = T extends new (...args: infer P) => any  ? P : never;
+      type ReturnType<T> = T extends (...args: any[]) => infer P ? P : any;
+      type Constructor = new (...args: any[]) => any;
+
+索引签名，表明可以使用额外的属性：
+ let x: { foo: number, [x: string]: any }
+1, 声明一个索引签名时，所有明确的成员都必须符合索引签名
+
+
+////////////////////////////////typescript\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+
+
+
+
+
+
 
 
 
