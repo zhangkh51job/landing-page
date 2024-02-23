@@ -218,8 +218,6 @@ vite:
 
 
 
-
-
 ts声明文件：
 	使用ts类型检查引用第三方js文件，需产出
 	.d.ts 为后缀, declare module module_name {}
@@ -312,7 +310,7 @@ https://dami-api-asdnjaks32432najsnd.jstztw.com/  	+8615901724222
 
 
 
-http://43.156.78.206/accounts/list   -->  test     1qaz3edc5tgb
+
 
 
 

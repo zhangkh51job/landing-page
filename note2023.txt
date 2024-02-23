@@ -7,6 +7,9 @@ google账号:
    pt-key@mail.idcduty.com
    key123456789
 
+禅道：
+pt-key
+Aa123456
 
 http://185.167.15.153:11280/users/sign_in
 key2023    Aa147258
@@ -171,33 +174,7 @@ D:\workspace\kgsport-lottery-3\public\PC\components
 D:\workspace\kgsport-lottery-3\src\view\PC\assets
 
 
-crisis crisis crisic crisic
-crisic crisis crisic crisic crisic crisic
-crisic crisis crisis
-utilize utilize utilize utilize utilize utilize 
-utilize utilize utilize utilize utilize utilize
-utilize utilize utilize utilize utilize utilize
-utilize utilize crisis crisis crisis crisis crisis
-crisis crisis perhaps perhaps perhaps perhaps perhaps
-perhaps perhaps civilian civilian civilian civilian civilian
-civilian civilian civilian civilian civilian civilian civilian
-civilian civilian civilian budget budget budget budget budget budget
-budget budget budget budget budget budget budget budget budget budget budget budget
-budget budget budget budget budget budget budget budget budget budget budget budget
-budget patch patch patch patch patch patch patch patch patch
-estate estate estate estate estate estate estate estate estate circulate circulate
-circulate circulate circulate circulate circulate circulate circualte circulate circulate
-circulate trivial trivial trivial trivial trivial trivial trivial trivial trivial trivial trivial
-trivial trivial trivial trivial trivial trivial trivial trivial trivial trivial trivial trivial
-trivial trivial trivial trivial trivial debt loan loan loan loan loan loan loan loan loan loan loan
-loan loan loans loans loans loans loans loans loans loans woking capital loans 
-working capital loans working capital loans working capital loans
-raise cash raise cash raish cash raise cach; raise cash; raise cash
-raise cash; raise cash; raise cash; raise cash; raise cash; raise cash; raise cash;
-raise cash; raise cash; raise cash;environment environment environment environment
-environment environment environment environment environment environment environment
-environment environment environment environment environment environment environment
-environment environment environment environment environment environment environment
+
 
 
 ApigetTypeList 处理有三层遍历：
@@ -240,13 +217,7 @@ store.bets.push
 
 
 
-store.bets.push({
-				amount: defaultAmount.value,
-				contents: betNum.key,
-				game: betNum.game, 
-				detailGameName: state.slideOddsList[betNum.oddsKey]?.aliasName+'/'+betNum.value,
-				odds: lotteryOdds.value[`${betNum.oddsKey}`] || 0,
-			})
+
 
 
 
@@ -261,11 +232,6 @@ http://172.16.8.163:9527/mylott/bet?token=eyJhbGciOiJIUzUxMiJ9.eyJhdXRoZW50aWNhd
 
 
 
-
-2001
-1998
-1992
-1991
 spoon spoon spoon spoon spoon spoon spoon spoon spoon spoon spoon spoon spoon spoon spoon spoon spoon
 spoon spoon spoon spoon spoon spoon spoon spoon spoon 
 
@@ -290,7 +256,7 @@ or
 git pull --recurse-submodules
 
 
-
+webpack chunk打包时，大小写敏感，且webpackChunkName 需要都是小写
 
 
 
@@ -339,12 +305,15 @@ src\store\modules\app.js :: SET_LAUGUAGE_LIST  将语言存入 indexedDB中
 https://intl-jenkins.kg822.com/		key  Aa159753   
 intl-gameplat-admin-ui_int102  国际化 管理后台  打包项目
 
+https://intl-jenkins.kg822.com/
+key  Aa654789
 
+http://8.218.184.131:11280/
+账号密码：pt-key	Aa1234567
 
 
 国际化代理后台：
 首页统计：/api/agent/home/statistics
-
 
 
 
@@ -365,45 +334,55 @@ cms\cms-service\src\agent\index.ts   -->  (export all）
 
 
 
-
-
-
-
-
-
-
-
-
-
 一维语言的英语用 字母组合 去拼读这个世界，就体现了声音特质。
 不管你是哪国语言，只要有声音，英语都可以收录进来 :: kale （电脑卡了）
 
 英语主要占了 声音 这个优势。本质而言，语言首先是声音。声音变化越多，字母组合就显得越灵活越好用！
 
-先听声音和节奏。大脑自动跟上节奏，预判力就会增加。整句整句从  语音语调节奏力度  停顿情绪到位地预判和输出，基本处于一种
-享受“自动驾驶”状态。
+先听声音和节奏。大脑自动跟上节奏，预判力就会增加。整句整句从  语音语调节奏力度  停顿情绪到位地预判和输出，
+基本处于一种享受“自动驾驶”状态。
 整个句子，分配重点，把控节奏 -->  听力就是预判力！
 
 外面有无数的人名，地名，建筑名品牌名，这些本质而言都是声音组合，为什么不读他原来的文字而要用中文翻译？
 
 
 
+*********** 重音之下，元音一般都发短元音(多音节中，第二重音也是重音)；单词的重读位置
+*********** 两个清辅音在一起时，后面的清辅音要发和它相对应的浊辅音 :: stand, street, spell, sky ...
+*********** 重读闭音节且结尾只有一个辅音字母的单词，改变时态时要双写
+
+重音之下，元音没有发短元音的例外有比如：
+lever  ::    /ˈliːvə(r)/ ，   但美音 也可读作 [ˈlevər]
+item	  ::   /ˈaɪtəm/，  island
+
+
+
+
+
+
+
+
+
 
 
 英语音节，音节拆分规则；元辅音发音规则
-integrate --> in'te'grat(e)
-why?
-economy  ---> e'co'  no'my，  o在c前，一般都短元音；又比如column
+integrate --> inte'grat(e)
+
+why?（音节拆分，co如果是重音节，则读 'kɔ, 否则读kə）
+economy  ---> e'cono'my，  o在c前，一般都短元音（重音之下，元音都发短元音）；又比如column
 photo    ---> pho'  to
 
 发音变迁
-de'po'sit  --> de'po'si'tion
+de'po'sit  --> 'depo'si'tion （重音也是分隔符，重音之下，元音都发短元音）
+'column   ---> co'lumnar       
+'author  --> au'thori(ə)ty  (authority中，重音在t之前，o发短元音）
 
-au'thor  --> au'thori(ə)ty
 
 
-
-比如rabbit，它的音节划分是rab / bit ，重读在第一位，那么第一个rab就属于重读闭音节
+比如rabbit，
+1，它的音节划分是rab / bit ，重读在第一位，那么第一个rab就属于重读闭音节
+2，解读2： 重音之下，元音都发短元音 
+3, 1,2都可解读发音规律，构成英语的整体发音规则
 
 例：
 super  --> su'per
@@ -434,19 +413,21 @@ tem'po'ra'ry
 
 音素：
 元音（20）：
-长元音（5个）：/ɑ:/ /ɔ:/ /ɜ:/ /i:/ /u:/
-短元音（7个）：/ʌ/  /ɒ/  /ə/  /ɪ/  /ʊ/    +    /e/ /æ/
-双元音（8个）： /eɪ/ /aɪ/ /ɔɪ/ /əʊ/ /aʊ/ /ɪə/ /eə/ /ʊə/
+长元音（5个）：/ɑ:/  /ɔ:/    /ɜ:/   /i:/   /u:/
+短元音（7个）：/ʌ/   /ɒ/    /ə/    /ɪ/    /ʊ/  +    /e/  /æ/
+双元音（8个）：/aʊ/ /ɔɪ/ /əʊ/  /ɪə/ /ʊə/   +  /eɪ/ /aɪ/  /eə/ 
 
 辅音（28）：
 发音时声带不振动的辅音称为清辅音
 发音时声带振动的辅音称为浊辅音
-清辅音（11个）：   /p/ /t/ /k/ /f/ /θ/ /s/ /ʃ/ /h/ /tʃ/ /ts/ /tr/
-浊辅音（17个）:   /b/ /d/ /g/ /v/ /ð/ /z/ /ʒ/ /r/ /dʒ/ /dz/ /dr/     +   /j/ /w/ /m/ /n/ /ŋ/ /l/
+清辅音（11个）：   /p/ /t/ /k/  /f/  /θ/ /s/  /ʃ/  /h/  /tʃ/ /ts/  /tr/
+浊辅音（17个）:   /b/ /d/ /g/ /v/ /ð/ /z/  /ʒ/ /r/ /dʒ/ /dz/ /dr/     +   /j/ /w/ /m/ /n/ /ŋ/ /l/
 
+过去式加 -ed 的读音：
+1，在清辅音后，读清辅音 /t/
+2，在浊辅音后和元音后， 读浊辅音 /d/
+3，在t, d 音后面，读 /id/
 
-*** 两个清辅音在一起时，后面的清辅音要发和它相对应的浊辅音 :: stand, street, spell, sky ...
-重读闭音节且结尾只有一个辅音字母的单词，改变时态时要双写
 
 
 “一符一音”为原则，即“一个音素一个符号，一个符号一个音素”是  读好英语单词必备的发音方法;
@@ -466,15 +447,17 @@ tem'po'ra'ry
 
 every  /ˈev.ri/
 
-'和.  可以分开音节
+
 /dɪˈpɒz.ɪt/
 /ˌdep.əˈzɪʃ.ən/  ::   四个音节以上的单词会出现两个重音， “ˈ”是第一重音， “ˌ”是第二重音
 
 key500106@gmail.com
 
+
+
 confidence: i don't think i cannot master english! i don't think i cannot understand other's speaking english!
-executive ::      /ɪɡˈzek.jə.tɪv/
-execute  ::    /ˈek.sɪ.kjuːt/
+executive ::      /ɪɡ'zekjətɪv/
+execute  ::    /ˈeksɪkjuːt/
 excuse	::     /ɪkˈskjuːz/
 
 foreign ::      /ˈfɒr.ən/
@@ -483,12 +466,12 @@ image   ::      /ˈɪm.ɪdʒ/
 main	::	/meɪn/
 
 major	::	/ˈmeɪ.dʒər/
-majority :: 	/məˈdʒɒr.ə.ti/
+majority :: 	/məˈdʒɒrəti/
 
-Mr	::	/ˈmɪs.tər/
+Mr	::	/ˈmɪs.tər/ 	t发d的浊辅音
 Mrs	::	/ˈmɪs.ɪz/
 
-necessary ::	/ˈnes.ə.ser.i/
+necessary ::	/ˈnesəser.i/
 parent	::	/ˈpeə.rənt/
 
 reality	::	/riˈæl.ə.ti/
@@ -500,13 +483,13 @@ recognize ::	/ˈrek.əɡ.naɪz/
 represent ::	/ˌrep.rɪˈzent/
 rest
 一般都读 ri
-recently  ::	/ˈriː.sənt.li/
+recently  ::	/ˈriː.snt.li/
 
 south	::	/saʊθ/
 southern ::	/ˈsʌð.ən/
 
 st 中  t都发d 的浊辅音
-status	:: 	/ˈsteɪ.təs/  t发d的浊辅音
+status	:: 	/ˈsteɪ.təs/  s前的t发d的浊辅音
 
 crime	::	/kraɪm/
 criminal  ::	/ˈkrɪm.ɪ.nəl/
@@ -522,13 +505,78 @@ analyse  ::	/ˈænəlaɪz/
 
 absence	::	/ˈæbsəns/
 accept	::	/əkˈsept/  a开头，什么时候读ə, 什么时候读æk?
+aspect	::	/ˈæspekt/  p 发浊辅音 b
 access	::	/ˈækses/
 
 
+relative ::	/ˈrelətɪv/   不是   /rɪˈleitɪv/
+relate	::	/rɪˈleɪt/
+
+appropriate ::	/əˈprəʊpriət/  a 标 ə，读ei
+
+
+assume	::	/əˈsjuːm/
+assumption::	/əˈsʌmpʃn/
+
+negate	::	/nɪˈɡeɪt/ (动词一般，第二音节重音，其他词，一般第一音节重音，重音符号也是分隔符）
+negative::	/ˈneɡətɪv/
+
+
+attribute 做动词 /əˈtrɪbjuːt/； 做名称 /ˈætrɪbjuːt/  注意重音符号跟 a的读音
+
+logical	::	/ˈlɒdʒɪkl/
+logicality ::	/ˌlɔdʒi'kæləti/
+
+
+canada	::	/ˈkænədə/
+canadian::	/kəˈneɪdjən/
+
+
+capacity::	/kəˈpæsəti/
+capability::	/ˌkeɪpəˈbɪləti/
+
+captain	::	/ˈkæptɪn/ 	
+capital	::	/ˈkæpɪtl/
 
 
 
-vvvvvvvvvvvvvvvvvvvvvv
+celeb	::	/sɪ'leb/
+celebrity::	/səˈlebrəti/
+
+
+cite an example :：	注意连读， /cite-a/  n-example/
+
+colleague ::	/ˈkɒliːɡ/ 不是     /ˈkɒlɪdʒ/ <---> college
+
+
+combine	::	/kəmˈbaɪn/
+combination::	/ˌkɒmbɪˈneɪʃn/	o和i发音变迁
+
+
+enable	::	/ɪˈneɪbl/   不是   /ɪn'eɪbl/
+
+explain::	/ɪk'spleɪn/    							p发b的浊辅音
+explanation::	/ˌekspləˈneɪʃn/  写法与读音差异
+
+
+policy	::	/ˈpɒləsi/
+politic	::	/'pɒlɪtɪk/
+politics   ::	/ˈpɒlətɪks/
+politician::	/ˌpɒləˈtɪʃn/	cian 结尾的表示 人/职业 的后缀
+
+police	::	/pəˈliːs/
+political::	/pəˈlɪtɪkl/
+
+
+
+
+
+
+读音规则：
+  co如果是重音节，则读 'kɔ, 否则读kə， 推广到其他组合（policy）po...等等 --> 重音之下，元音一般发短元音
+  cian 结尾的表示 人/职业 的后缀，读音 ʃn
+
+  a开头什么时候读 ei， 什么时候读ə， 什么时候读æ？？
 
 
 
@@ -537,8 +585,27 @@ vvvvvvvvvvvvvvvvvvvvvv
 
 
 
-represent represent represent represent represent represent represent
-represent represent represent represent represent represent
+
+
+
+
+
+
+
+
+ 词汇量增大阅读范围，词汇量多少，和音库量多少没有多大关系
+
+英语思维的本质就是“音库量“；快速建立5000个音库，听说会非常好；效果 = 效率 * 时长
+
+
+1，
+先理解，再听懂。而不是反复听一段音，就能听懂的。因为听懂的本质是：理解内容
+可理解的内容是不是在70%---80%之间：先理解内容，再去练习听力材料
+2，
+先建立起名词和动词的音库量，然后再开始建立起形容、副词、抽象名词
+3，
+背单词，对于5000词以内的，重点是：单词的读音，以及读音对应的大脑中的图片和感觉，再次才是拼写，汉语意思才是最不重要的
+对于2000基础单词，怎么背呢？如果你每个词都会发音，都有图片，也认识拼写的单词，那才算掌握了
 
 
 
@@ -549,52 +616,393 @@ represent represent represent represent represent represent
 
 
 
+similar words compared：
+board broad abroad
 
 
 
 
 
-adequate adequate adequate adequate adequate adequate adequate adequate
-adequate adequate adequate adequate
-
-
-adolescent adolescent adolescent a'do'le'scent
-adolescent adolescent
+concept
 
 
 
+总统是可以代替的，总统职务是可以必要时替代的： vice president
+教授是互相协助的，跟主教授紧密协助科研，教学： associate professor
 
+
+association association association association
+atmosphere atmosphere
+represent 
+
+
+
+
+cross-env VUE_APP_PAGE=kg-mobile vue-cli-service serve --open
+
+
+
+
+approve - consent - comply
+
+
+
+consent
+by common consent 
+
+
+
+
+
+vue/use:
+使用该库的函数，组件卸载时会自动调用删除函数，比如: useEventListener
+effectScope();
+
+
+
+
+
+
+
+
+
+scripts\plugin\SchemaPlugin.js :: compileSchema 生成.build/components.ts
+
+
+代理后台：
+core\agent\useAgentLogin.hook.ts  :: SubmitUserLogin  代理的登录
+
+
+
+问题：
+1，早盘，冠军 目前界面功能在哪里？
+
+
+
+
+
+
+
+#/?sportId=1&periodId=3
+
+
+&tenant=kgtest3&token=omtest-AE4354E5ABB445BA8D20DF2FC5E5C276&lang=zh-CN&currency=CNY
+
+
+querySportInternationalEventsAndMarketPageApi
+
+
+mobile:
+src\pages\365-mobile\views\home\index.tsx 		:: MarketList  	-->
+src\pages\365-mobile\components\market-list\index.tsx 	:: MarketItem	-->
+src\pages\365-mobile\components\market-item\index.tsx 	:: onAddBetTicket
+src\pages\365-mobile\components\market-item\odds\index.tsx::
+
+
+src\pages\365-mobile\components\__shopingcar\src\index.tsx  ::	BettingOrders -->
+src\pages\365-mobile\components\__shopingcar\src\betting-orders.tsx ::  SingleBetRenader | DuplexParlayBetRender
+
+
+
+state,
+betTickets,
+prebetInfo,
+prebetList,
+addTicket,
+handleBet,
+
+
+
+
+
+web:
+src\pages\kg-web\views\home\index.tsx	:: MarketList  -->
+src\pages\kg-web\views\home\components\market-list\index.tsx  ::  MatchSummary -->
+src\pages\kg-web\views\home\components\match-summary\index.tsx :: MatchSummaryOdds  -->
+src\pages\kg-web\views\home\components\match-summary\odds\index.tsx 
+
+
+
+/api/agent/getSportIntrEventSummary 左边赛事国家分类
+
+/api/agent/querySportInternationalEventsAndMarketsPage 具体类型赛事
+  	src\pages\kg-web\views\home\index.tsx :: watch( () => route.query, 监听route.query 查询
+
+
+
+
+Old API ---------------------------------New API
+queryEventsAndMarketsPage - querySportInternationalEventsAndMarketsPage 
+queryEventsAndMarkets - querySportInternationalEventsAndMarkets
+queryChampionEventAndMarket - querySportInternationalChampionEventAndMarket
+queryChampionLeagueList - querySportInternationalChampionLeagueList
+getId - getSportInternationalId
+getMatchResults - getSportMatchResults
+getEventSummary - getSportIntrEventSummary
+recommendedMatchList - sportInternationalRecommendedMatchList
+queryLeagueList - querySportInternationalLeagueList - with ALL for getting all matches of league
+getClassify - getSportIntrClassify
+querySportInternationalCountryList
+
+
+
+
+notes: 
+querySportInternationalEventsAndMarketsPage ::  data.matches.MatchId --> info.id
+
+
+mobile:
+	src\hooks\use365Bet.hook.ts
+web:
+	src\hooks\useBetWeb.hook.ts
+
+
+搜索页
+首页赛事名
+升降动画
+多语言
+优化
+
+
+
+三个接口没用到：
+queryChampionLeagueList --> querySportInternationalChampionLeagueList --> internationalChampionLeagueList
+getId - getSportInternationalId  --> getSportInternationalId
+querySportInternationalCountryList - internationalCountryList
+
+
+
+
+https://int102.abcty8.com/  登录国际化平台
+key123456
 
 millionaire millionaire millionaire
 
 
-heritage heritage heritage  heritage heritage heritage heritage heritage
+        heritage
+     inherit
+disinherit 
 
-disinherit disinherit 
+       assoc-iate
+  appropr-iate
 
-
-elegance elegance elegance 
-physician physician  physician physician
-
-
-
-cre'dit
-
-
-
-medium medium medium
-
-frequency frequency frequency frequency frequency
-influence
-
-adult
-quantity quantity quantity quantity quantity quantity 
+	opti-mistic
+      pessi-mistic
+    econo-mistic
+	  ato-mistic
+------------------------
+	    xx-mist(mist --> mister)
 
 
-architect architect architect architect
-architect a
+
+present
+作 verb,  读 /prɪˈzent/
+作 adj， 读 /ˈpreznt/
+
+access 		::   /ˈækses/
+accessible 	::  /əkˈsesəbl/
+
+delegate 	::  /ˈdelɪɡƏt/ ||  /ˈdelɪɡeit/   不是   /dɪlɪˈgeit/     e重读时，即使音节划分在末尾，也不发开元音
+specify		::   /ˈspesɪfaɪ/
+specific		::   /spəˈsɪfɪk/  p 发 b浊辅音  ,  不是/ˈspesɪfɪk/
 
 
+difine		::   /dɪˈfaɪn/ 	    <--->       definition	::  /ˌdefɪˈnɪʃn/  不是  /dɪfɪˈnɪʃn/
+definite		::   /ˈdefɪnət/
+
+position		::  /pəˈzɪʃn/    <---->   positive	::  /ˈpɒzətɪv/   不是   /pəˈzɪtəv/ 
+
+
+pair			::  /peə/  
+advertise	::  	:: /ˈædvətaɪz/
+advertisement :: /ədˈvɜːtɪsmənt/
+
+item 与 iterate 中i的发音？
+recommend		::  /ˌrekəˈmend/     <---->      recommence   /ˌrikə'mɛns/   
+
+courage 		:: [ˈkʌrɪdʒ]		<---> 	courageous  ::  [kəˈreɪdʒəs]
+hero		:: /'hɪərəʊ/		<--->  	heroic   /həˈrəʊɪk/
+
+science		:: /'saiəns/	<--->             conscience	/ˈkɒnʃəns/
+
+nature	 	:: /'neɪtʃə/		<---> 	natural	:: /'nætʃ(ə)r(ə)l/
+realm		:: /relm/	  不是  /ri:lm/
+
+origin		 :: /ˈɒrɪdʒɪn/		<--->	original	:: /əˈrɪdʒənl/
+
+英语发音遵循：发音的多样性，发音时的区别辨析度， 发音时音节前后的连贯性， 以及书写时辨析度
+celebrate	:: /ˈselɪbreɪt/		<---->	celebrity	::  /səˈlebrəti/
+
+represent  	<---->	present
+
+
+
+
+
+典型词 读准音  英/美
+schedule
+ordinary
+realm
+restaurant
+explain  p发b浊辅音
+
+similar words：
+purpose
+propose
+
+
+
+
+
+
+
+a发音规则：
+1，重读开音节中的发音 [ei]
+2，重读音节  前的  闭音节中的发音  [æ] 或 [Ə]
+
+
+各odds块到底需要展示几块，再加个排序字段
+搜索接口什么时候好
+传入语言参数没有数据
+
+
+
+
+@PT-key, please pass country parameter according to this                                                                                                                         
+ CHINA "zh-CN"
+ ENGLISH "en-US"
+ INDONESIA "in-ID"
+ THAILAND "th-TH"
+ VIETNAM "vi-VN"
+ PORTUGUESE "pt-PT"
+ TURKEY "tr-TR",
+ SPANISH "es_ES"
+
+
+
+
+
+
+vue-cli: require.context(url, true, /suffix/)
+	 require.context('@/router/main', true, /.ts/)
+vite:	 import.meta.globEager(url+suffix)
+	 import.meta.globEager('@/router/main/**/*.ts')
+
+
+
+flex的布局，子元素高度拉升 align-items: strength; 再设子元素height：100%；则冲突不生效；
+
+groups
+
+
+fined (reading '223200289611760128_223200743304439040')
+
+@font-size-xs: 10px;
+@font-size-sm: 12px;
+@font-size-md: 14px;
+@font-size-lg: 16px;
+
+没有的数据 E-Sports（5）； Badminton（21）；eIce-Hockey（33）
+
+
+questions:
+样式对比一下bc.game 再调调。   bc.game的赔率是高亮的， 咱们的太暗了。  -- 一样
+
+mask-image: linear-gradient(90deg, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 100%);
+
+
+
+
+
+
+详情页比赛头部：
+45323		1	【int102--国际化体育--h5】预投注窗口：需要加一个赔率设置按钮	EGSPORT彩票体育
+
+
+
+https://zentao.uuuhgnmgnd.com/zentao/bug-view-45445.html###
+
+
+webpack://kgsport-cms/sport-[name]/src/apps/kg-mobile/components/market-item/odds/index.tsx  -->
+webpack://kgsport-cms/sport-[name]/src/apps/kg-mobile/components/market-item/index.tsx?f804   -->
+webpack://kgsport-cms/sport-[name]/src/components/mobile-shoping-car/src/keyboard/index.tsx?a166
+
+
+
+
+
+IM体育、沙巴体育    注单数据
+E:\kgsport-cms/sport-[name]/src/common/hooks_kg/useJCsport.hook.ts?f994
+
+竞猜体育    注单数据
+E:\kgsport-bet-cn\src\common\hooks_kg\useJCsport.hook.ts
+
+
+
+
+情报弹窗：
+E:\kgsport-bet-cn\src\apps\common-page\data-feeds\src\index.tsx
+数据统计:
+E:\kgsport-bet-cn\src\apps\common-page\data-feeds\src\components\data-total\index.tsx
+
+
+
+kgsport-bet-cn 中文体育 
+线上环境：https://kc228-1.wk355.com/
+测试环境： https://kgtest3-1.wk355.com/
+
+
+new task:
+src\apps\web-template-a\__home\index.tsx
+src\apps\web-template-a\components\Layout\index.tsx  ::  Layout
+src\apps\web-template-a\components\Layout\index.tsx  ::  LiveData
+src\apps\web-template-a\live-data\index.tsx	:: DataView
+src\apps\common-web-page\data-feeds\src\index.tsx
+
+
+bet chain:
+src\apps\kg-mobile\__home\index.tsx
+src\apps\kg-mobile\__home\BetMarket.tsx
+src\apps\kg-mobile\components\market-list\index.tsx
+src\apps\kg-mobile\components\market-item\index.tsx
+src\apps\common-page\popluar-market\index.tsx
+
+
+波胆：
+marketList.matches.popular.list.slice(0, 2).sels.sel  combo串关数据在sels上
+
+
+
+
+
+
+
+
+
+
+
+https://kgtest3-1.wk355.com/api-aty/api/agent/queryMatchLive?eventId=2491446
+http://192.168.30.23:8080/api-bty/api/agent/queryMatchLive?eventId=2389607
+
+
+
+
+
+voluntary
+    military
+
+
+缺失数据：
+赛况比赛进程、赛况的统计、数据中的教练数据
+
+一额
+
+
+https://kgtest3-1.wk355.com/api-bty/api/agent/queryMatchInformation?sportId=1&eventId=2813448
+https://kgtest3-1.wk355.com/api-aty/api/agent/queryScoreProbability?eventId=2512978  查询这两块数据的接口
+
+
+?domain=https://baidu.com&sportId=2&eventId=3
 
 
 
