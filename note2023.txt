@@ -51,8 +51,6 @@ https://cms.kg855.com/static/mylott/home?token=eyJhbGciOiJIUzUxMiJ9.eyJhdXRoZW50
 
 
 
-@vitejs/plugin-vue
-@vitejs/plugin-vue-jsx
 
 
 
@@ -84,6 +82,17 @@ async,await 使用两层或超过两层的  需要优化，只能使用一层，
 代码执行完，才会执行下面的代码,会暂时阻塞浏览器
 
 
+
+
+
+@vitejs/plugin-vue
+@vitejs/plugin-vue-jsx
+
+vue-cli: require.context(url, true, /suffix/)
+	 require.context('@/router/main', true, /.ts/)
+vite:	 import.meta.globEager(url+suffix)
+	 import.meta.globEager('@/router/main/**/*.ts')
+
 review vite:
 频率较高的插件：
   vite-plugin-copy-dest，
@@ -96,6 +105,15 @@ vite需要将路径规范化处理，规范函数  normalizePath::vite
 
 vite客服端和服务端可以互相发送事件：
 configureServer钩子函数:: server.ws.[on/send] <-----> import.meta.hot.[on/send]
+
+
+
+
+
+
+
+
+
 
 
 
@@ -414,8 +432,8 @@ tem'po'ra'ry
 音素：
 元音（20）：
 长元音（5个）：/ɑ:/  /ɔ:/    /ɜ:/   /i:/   /u:/
-短元音（7个）：/ʌ/   /ɒ/    /ə/    /ɪ/    /ʊ/  +    /e/  /æ/
-双元音（8个）：/aʊ/ /ɔɪ/ /əʊ/  /ɪə/ /ʊə/   +  /eɪ/ /aɪ/  /eə/ 
+短元音（7个）：/ʌ/   /ɒ/    /ə/    /ɪ/    /ʊ/   +    /e/  /æ/
+双元音（8个） /aʊ/  /ɔɪ/  /əʊ/  /ɪə/  /ʊə/   +  /eɪ/ /aɪ/  /eə/ 
 
 辅音（28）：
 发音时声带不振动的辅音称为清辅音
@@ -832,9 +850,17 @@ origin		 :: /ˈɒrɪdʒɪn/		<--->	original	:: /əˈrɪdʒənl/
 
 英语发音遵循：发音的多样性，发音时的区别辨析度， 发音时音节前后的连贯性， 以及书写时辨析度
 celebrate	:: /ˈselɪbreɪt/		<---->	celebrity	::  /səˈlebrəti/
+company	:: /ˈkʌmpəni/		<---->	companion	::  /kəmˈpæniən/  重音位置不同，发音完全不同
+
+curious		:: /ˈkjʊəriəs/		<---->	curiosity		::  /ˌkjʊəriˈɒsəti/
+
+ingenuity	:: /ˌɪndʒəˈnjuːəti/	<---->	ingenuous	::  /ɪnˈdʒenjuəs/
+
+economy	::  /ɪˈkɒnəmi/		<---->	economic	::  /ˌiːkəˈnɒmɪk/         the typical kind change of pronoucing
+
+
 
 represent  	<---->	present
-
 
 
 
@@ -844,21 +870,78 @@ schedule
 ordinary
 realm
 restaurant
-explain  p发b浊辅音
-
-similar words：
-purpose
-propose
-
+----
+准确发音：
+aʊ   --->  allow，down, about, house     常见的组合 ow  || ou
+ʊə   --->  moor,   fury,  ensure		       常见的组合 oor || our || ure
 
 
 
 
 
 
-a发音规则：
-1，重读开音节中的发音 [ei]
-2，重读音节  前的  闭音节中的发音  [æ] 或 [Ə]
+英(DJ音标）、美音(KK)的区别（美音带有较为明显的 儿 化音）：
+音标：			ɒ	---->		ɑː     	 
+o的开音节读音，  əʊ	----> 	o（oʊ）
+
+ɔ:  长发音变 哦  --->         ɔ:  长发音还是 凹   (美音 发 哦，只能用 ɔ:r 音标)
+ɔ:   	       <-----等价----->      ɔ:r
+
+		   ɒ	  --->   ɑː     
+		  [e]	  --->   [ɛ]   (需要卷舌)
+a的双元音 [eɪ]   --->   [e]   标识不同，发音相同
+		  ɪə     --->   ɪr
+	          eə   ---->   ɛr
+		  ʊə  ----->  ʊr
+		  əʊ	----->  o（oʊ）
+				    且KK音标没有 : 的长音符号
+
+voluntary
+    military
+	  tary 	/tri/	   ---->	/teri/
+
+
+
+
+
+
+
+
+
+辅音的区别：
+1， 当“t”出现在两个元音之间且处于非重读位置的时候，/t/音需要经过从送气到不送气的转变，发成一个近似于/d/的浊化的音：
+	letter、better、bitter、butter、water、duty、writer、city，etc
+2，当“t”前面是一个元音，后面是一个模糊的/l/，且处于非重读位置，此时/t/音也需要经过一个从送气到不送气的转变，发成一个近似于/d/的音
+	battle、bottle、cattle、little、rattle、settle
+3，当“t”前面是一个清辅音或前鼻音/n/，且后面是一个元音，又处于非重读位置的话，/t/音也需要经过从送气到不送气的转变，发成一个近似于/d/的音。例如我们常见的单词twenty、center、hasty
+	twenty、center、hasty、faster、sister、sixty、fifty、after、chapter、actor、yesterday、gentle，etc.
+
+
+英语语音是  一词多音、  延绵含糊、广泛音变(连读、浊化、重音、吞音,  单词在句子中的发音，绝大多数都不是独立时的发音，而是广泛的音变了)  的特点
+就算把音标讲对讲全面，也只占5%的，剩余95%的语音内容是什么大家都不知道
+
+都不知道英语语音要怎么学怎么教？？？关键是象普通话培训那样专门学习完整而正确的英语语音课。
+
+question:
+1, 中国人对延绵含糊且广泛音变的英语语音听不清
+2, 英语以句子本单位，每个句子是以语法骨架组起来的逻辑体系。对  语法结构 和 语法含义  听不出来，英语声音就是一盘散沙
+    想听懂  英语声音  必须具备  语法感知能力
+3, 英语句子是逻辑体系，基本素材不是 单词 是 词汇，含义 是 词汇含义、语法含义、习惯表达含义 、英语思维这些所组成的综合逻辑含义
+
+
+一直无法从  重文本  的 中文思维模式 调整到  重语音  的 英语思维模式，英语语感一直很弱。听音辨义，自动记忆， 听音写词能力缺失
+英语是表音系的语言，以语音为核心，且音形对应
+音标基础知识， 缺失太多语音能力
+英语语音原理？？
+
+answer:
+英语音标练英语的发音肌肉，也只能通过音标来练习，练习音标时有一个要点，那就是要记得练习到口腔累才行
+
+
+
+
+
+
 
 
 各odds块到底需要展示几块，再加个排序字段
@@ -883,26 +966,15 @@ a发音规则：
 
 
 
-vue-cli: require.context(url, true, /suffix/)
-	 require.context('@/router/main', true, /.ts/)
-vite:	 import.meta.globEager(url+suffix)
-	 import.meta.globEager('@/router/main/**/*.ts')
-
-
 
 flex的布局，子元素高度拉升 align-items: strength; 再设子元素height：100%；则冲突不生效；
 
-groups
 
-
-fined (reading '223200289611760128_223200743304439040')
 
 @font-size-xs: 10px;
 @font-size-sm: 12px;
 @font-size-md: 14px;
 @font-size-lg: 16px;
-
-没有的数据 E-Sports（5）； Badminton（21）；eIce-Hockey（33）
 
 
 questions:
@@ -940,10 +1012,7 @@ E:\kgsport-bet-cn\src\common\hooks_kg\useJCsport.hook.ts
 
 
 
-情报弹窗：
-E:\kgsport-bet-cn\src\apps\common-page\data-feeds\src\index.tsx
-数据统计:
-E:\kgsport-bet-cn\src\apps\common-page\data-feeds\src\components\data-total\index.tsx
+
 
 
 
@@ -988,8 +1057,6 @@ http://192.168.30.23:8080/api-bty/api/agent/queryMatchLive?eventId=2389607
 
 
 
-voluntary
-    military
 
 
 缺失数据：
@@ -1002,7 +1069,105 @@ https://kgtest3-1.wk355.com/api-bty/api/agent/queryMatchInformation?sportId=1&ev
 https://kgtest3-1.wk355.com/api-aty/api/agent/queryScoreProbability?eventId=2512978  查询这两块数据的接口
 
 
-?domain=https://baidu.com&sportId=2&eventId=3
+?domain=https://kgtest3-1.wk355.com/api-bty/api/agent/queryMatchInformation&sportId=1&eventId=2813448&lc=ff0000&ttc=000000&sc=00ff00
+
+src\apps\kg-mobile\__home\BetMarket.tsx  					::marketStore.marketList  -->
+src\apps\kg-mobile\components\market-list\index.tsx  		::marketData  -->
+src\apps\kg-mobile\components\market-item\index.tsx 		::matches.info  -->
+
+
+中文平台5.0界面（2）  --->    所有场景主题色以及通用颜色规范    --->    主题色及通用色值规范：
+https://lanhuapp.com/web/#/item/project/detailDetach?type=image&pid=12afa61b-9b31-4d26-8039-a41a036fe8d4&teamId=b7d40ca0-0e15-4b7f-8500-becc1d5c6e75&project_id=12afa61b-9b31-4d26-8039-a41a036fe8d4&image_id=458129f0-6968-4f23-9fd7-c46fd4075475&fromEditor=true
+
+
+
+    '--van-primary-color': '#009944', // 主色
+    '--sp-primary-color': '#009944', // 主色
+    '--sp-light-primary-color': '#00c979', // 次主色
+    '--sp-dark-primary-color': '#00c979', // 次主色
+    '--sp-bg-color': '#f2f2f2', // 一级/三级背景
+    '--sp-ln-color': '#8a8a8a', // 次要文字
+    '--sp-white-color': '#fff', //
+    '--sp-border-color': '#f2f2f2', // 分割线点缀
+    '--sp-tabbar-height': '50px',
+    '--sp-cart-bg': `url(${Green})`,
+    '--sp-default-teamlogo': `${GreenLogo}`,
+    '--sp-app-bg-color': '#f2f2f2', // 一级/三级背景
+    '--sp-bg-primary-color': '#fff', // 二级背景
+    '--sp-special-color': '#333' // 主要文字
+
+
+web有问题的主题：
+mobileBlackGold
+mobileBlackBlue
+mobileDarkBrown
+mobileGreenBlue
+mobileDarkBlueBlue
+
+
+
+
+
+E:\kgsport-bet-cn\src\assets\svg-sprites\data
+
+
+
+marketStore.marketList
+					 :[item].matches.info.period
+
+
+
+
+
+
+
+/opt/kgtest3-1/cms-web
+/opt/kc186-1/cms-web
+/opt/kc186-3/cms-web
+
+
+
+
+
+http://localhost:8080/E:/kgsport-bet-cn/src/themes/E:/kgsport-bet-cn/src/apps/common-page/jc-sport/src/item/item.less
+
+
+http://localhost:8080/E:/kgsport-bet-cn/src/themes/E:/kgsport-bet-cn/src/apps/common-page/jc-sport/src/details/jcsportdetails.less
+
+
+apps\kg-mobile\components\market-item\index.tsx
+
+
+
+
+
+购物车：
+src\common\hooks_kg\useBet.hook.ts	::  betTickets
+
+
+竞猜ticket
+src\common\hooks_kg\useJCsport.hook.ts	::   jcBetTickets, useJCsport
+
+
+shoping: 
+src\components\mobile-shoping-car\src\index.tsx
+
+jc shoping car:
+src\apps\common-page\jc-sport\src\shop-cart\index.tsx
+
+
+
+
+one item:  fbItem-details-box
+
+
+
+竞猜主页： 	store.Marketslist
+竞彩主页Item: store.Marketslist :: jcMatchList
+		竞彩更多详情：store.leagueList.oddset
+
+
+
 
 
 
