@@ -141,26 +141,88 @@ streams API 和 service worker，可以完成Fetch API 的progress功能
 
 ////////////////////////////////typescript\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
+@decorator 要么返回空， 要么返回一个函数   <---对比--->   子类改变父类的行为
+decorator的类型结构：
+type Decorator = (
+  value: DecoratedValue,
+  context: {
+    kind: string;
+    name: string | symbol;
+    addInitializer?(initializer: () => void): void;
+    static?: boolean;
+    private?: boolean;
+    access: {
+      get?(): unknown;
+      set?(value: unknown): void;
+    };
+  }
+) => void | ReplacementValue;
+function decorator(value: any, context: ClassMethodDecoratorContext) { ... }
+
+ts5.0同时支持 新/旧 装饰器语法，新语法可直接使用， 旧语法需要打开 --experimentalDecorators编译参数
+
+decorator旧语法：
+1，类装饰器： type  ClassDecorator  =  <TFunction extends Function> (target: TFunction) => TFunction | void;
+     装饰器对类的行为的改变，实际上发生在编译阶段
+2，方法装饰器 / 存取器装饰器： type MethodDecorator = <T>(
+  target: Object,
+  propertyKey: string|symbol,
+  descriptor: TypedPropertyDescriptor<T>
+) => TypedPropertyDescriptor<T> | void;
+
+3，属性装饰器： type PropertyDecorator =
+  (
+    target: Object,
+    propertyKey: string|symbol
+  ) => void;
+
+4，参数装饰器： type ParameterDecorator = (
+  	target: Object,
+  	propertyKey: string|symbol,
+  	parameterIndex: number
+) => void;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 泛型约束：
 
 declare namespace base ｛ export type xxx=string｝
 
-ts公共的类型：
- Awaited<Type>,  
- Partial<Type>,  
- Required<Type>,  
+ts公共的l内置类型：
+ Awaited<Type>,  获取Promise中的类型(如await、then方法返回的被Promise包裹的数据的类型); 适合处理异步操作并确保解析值的类型安全
+ Partial<Type>,        						<-----reverse------> 		Required<Type>,  
+
  Readonly<Type>,  
  Record<Keys, Type>,
- Pick<Type, Keys>      <-----reversed----->        Omit<Type, Keys>
- Exclude<UnionType, ExcludedMembers>   
- Extract<Type, Union>
+ Pick<Type, Keys>      						<------reverse----->        	Omit<Type, Keys>
+
+ Exclude<UnionType, ExcludedMembers>   	<-----reverse------>		 Extract<Type, Union>
+
  NonNullable<Type>
 
  Parameters<Type>: 根据函数类型的参数中使用的类型构造元组类型Type
-
  ConstructorParameters<Type>: 从构造函数类型的类型构造元组或数组类型
 
  ReturnType<Type>: 构造一个由 function 的返回类型组成的类型Type
+
+InstanceType
+const student1: Student， class Student{ ....},   Student为类型声明    		<------等价于------>
+const student1: InstanceType<typeof Student> = new Student()，Student为变量声明，const Student = class { .... }
+
+
  固有字符串操作类型：
   Uppercase<StringType>
  Lowercase<StringType>
@@ -180,7 +242,7 @@ tsconfig.json
  paths: typescript的基准目录，也就是 TypeScript 如何导入require或imports语句加载的模块
 
 
-keyof 运算符返回的键名联合类型string|number|symbol
+keyof any  返回的键名联合类型string|number|symbol
 Capitalize<T>：一个原生的工具泛型
 
 any与unkonw：
@@ -189,6 +251,15 @@ any与unkonw：
 void与never：
 void表示返回值为空，void类型可以被赋值（在strictNullChecks为false时）
 never表示永远不存在值的类型，只能赋值给另外一个never
+
+
+is 关键字更多用在函数的返回值上，用来表示对于函数返回值的类型保护
+extends 条件判断或者 in 类型循环时，仅仅支持在 type 类型声明中使用，并不可以在 interface 中使用，这也是 type 和 interface 声明的一个不同
+
+unknown1，不会绕过类型检查但又暂时无法确定值的类型；2，类型可以接收任意类型的值，但并不支持将unknown赋值给其他类型
+any 1，会绕过类型检查；2，类型同样支持接收任意类型的值，同时赋值给其他任意类型（除了never）
+
+
 
 infer 表示在 extends 条件语句中待推断的类型变量
 如ts内置的高阶类型：

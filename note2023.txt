@@ -85,6 +85,10 @@ async,await 使用两层或超过两层的  需要优化，只能使用一层，
 
 
 
+vite是基于浏览器 Esmodule进行模块加载的方式
+    import xxx from 'yyy';  将 antd 在预构建阶段通过 Esbuild 在 /node_modules/.vite/deps 生成的产物
+
+
 @vitejs/plugin-vue
 @vitejs/plugin-vue-jsx
 
@@ -101,7 +105,7 @@ review vite:
 vite需要将路径规范化处理，规范函数  normalizePath::vite
 
   
-至少一个顶级的 import 或 export，即使它只是 export {}。如果扩展被放在模块之外，它将覆盖原始类型，而不是扩展！
+
 
 vite客服端和服务端可以互相发送事件：
 configureServer钩子函数:: server.ws.[on/send] <-----> import.meta.hot.[on/send]
@@ -159,7 +163,13 @@ infer 表示在 extends 条件语句中待推断的类型变量
 
 
 
+至少一个顶级的 import 或 export，即使它只是 export {}。如果扩展被放在模块之外，它将覆盖原始类型，而不是扩展！
 
+is 关键字更多用在函数的返回值上，用来表示对于函数返回值的类型保护
+extends 条件判断或者 in 类型循环时，仅仅支持在 type 类型声明中使用，并不可以在 interface 中使用，这也是 type 和 interface 声明的一个不同
+
+unknown1，不会绕过类型检查但又暂时无法确定值的类型；2，类型可以接收任意类型的值，但并不支持将unknown赋值给其他类型
+any 1，会绕过类型检查；2，类型同样支持接收任意类型的值，同时赋值给其他任意类型（除了never）
 
 
 
@@ -1057,10 +1067,6 @@ http://192.168.30.23:8080/api-bty/api/agent/queryMatchLive?eventId=2389607
 
 
 
-
-
-缺失数据：
-赛况比赛进程、赛况的统计、数据中的教练数据
 
 一额
 
