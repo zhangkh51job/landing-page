@@ -103,13 +103,14 @@ JavaScript 和 TypeScript 的静态类型交叉口 —— 类型定义文件d.ts
 接口interface 和 类型别名type的对比：
    相同点：都可以给对象指定类型
    不同点：
-	接口只能为对象指定类型；类型别名可以为任意类型（包括函数）指定别名
+	type可以为任意类型（包括函数）指定别名；Interface只能为对象指定类型
+        type声明中可以使用extends, in , typeof 等；interface不可以
    先有的 interface，后有的 type,推荐使用 type
 
 枚举也分数值枚举 和 字符串枚举
 
 any
-unknow(ts3.0)
+unknow(ts3.0才有)
 void： 声明一个 void 类型的变量没有什么作用，因为它的值只能为 undefined 或 null
 Null 和 Undefined 类型： null 和 undefined 是所有类型的子类型
 
@@ -174,7 +175,7 @@ Chainlink是一个基于区块链的去中心化预言机网络，它让智能�
 Uniswap是构建于以太坊的去中心化交易平台协议 -- 自动化的流动性协议
 
 Polygon：
-   Polygon框架支持两类与以太坊相兼容的主要网络：安全链和独立链。举例来说，“汇总”(Rollup)是一种安全链，侧链则属于独立链
+   Polygon框架支持两类与以太坊相兼容的主要网络：安全链和独立链。举例来说，“汇总”(Rollup)是一种安全链（以太坊二层链），侧链则属于独立链
    与eth主网并行运行但在主网之外处理交易的区块链，从而提高了交易吞吐量和更便宜的gas
 
 以太坊合并不会降低以太坊的gas费用或提高以太坊的速度，仅仅是环保？？

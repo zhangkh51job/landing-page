@@ -106,7 +106,7 @@ payable 修饰符要用于修饰 函数info，否则，info.value() 选项将不
 
 智能合约示例： https://darkshadowclub.com/createyourico/
 
-
+  
 
 优先级：Cache-Control  >  Expires 
 缓存协商： Etag，  Last-Modified
@@ -220,7 +220,7 @@ ts公共的l内置类型：
 
 InstanceType
 const student1: Student， class Student{ ....},   Student为类型声明    		<------等价于------>
-const student1: InstanceType<typeof Student> = new Student()，Student为变量声明，const Student = class { .... }
+const student1: InstanceType<typeof Student> = new Student()，const Student = class { .... }， Student为变量声明
 
 
  固有字符串操作类型：

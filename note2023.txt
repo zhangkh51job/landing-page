@@ -260,8 +260,6 @@ http://172.16.8.163:9527/mylott/bet?token=eyJhbGciOiJIUzUxMiJ9.eyJhdXRoZW50aWNhd
 
 
 
-spoon spoon spoon spoon spoon spoon spoon spoon spoon spoon spoon spoon spoon spoon spoon spoon spoon
-spoon spoon spoon spoon spoon spoon spoon spoon spoon 
 
 当 meta 和 header 头中同时设置一个内容的时候，header 头中的会覆盖 meta 中的信息优先使用。
 
@@ -520,7 +518,7 @@ st 中  t都发d 的浊辅音
 status	:: 	/ˈsteɪ.təs/  s前的t发d的浊辅音
 
 crime	::	/kraɪm/
-criminal  ::	/ˈkrɪm.ɪ.nəl/
+criminal  ::	 /ˈkrɪmɪnl/
 
 up	::	/ʌp/
 upon	::	/əˈpɒn/
@@ -868,6 +866,13 @@ ingenuity	:: /ˌɪndʒəˈnjuːəti/	<---->	ingenuous	::  /ɪnˈdʒenjuəs/
 
 economy	::  /ɪˈkɒnəmi/		<---->	economic	::  /ˌiːkəˈnɒmɪk/         the typical kind change of pronoucing
 
+essence		:: /ˈesns/			<---->	essential		::  /ɪˈsenʃl/
+
+
+
+金鱼拉丁字母理论中，这些后缀中涉及的字母的象形本源分别是：A（人）、E（眼睛和耳朵）、N（鼻子）、O（嘴巴）、M（手）、T（大地）、S（海洋）、R（太阳，通常表示发散）、Y（谷物。通常表示丰收）等
+
+词根组成的衔生词  ； 衔生词之间的音变
 
 
 represent  	<---->	present
@@ -947,7 +952,7 @@ question:
 answer:
 英语音标练英语的发音肌肉，也只能通过音标来练习，练习音标时有一个要点，那就是要记得练习到口腔累才行
 
-
+基础交流； 描述未知，复杂的事务
 
 
 
@@ -1087,10 +1092,12 @@ https://lanhuapp.com/web/#/item/project/detailDetach?type=image&pid=12afa61b-9b3
 
 
 
+一个主题只有前四个是变动，后面基于  同一套体系色值  色板：
     '--van-primary-color': '#009944', // 主色
     '--sp-primary-color': '#009944', // 主色
     '--sp-light-primary-color': '#00c979', // 次主色
     '--sp-dark-primary-color': '#00c979', // 次主色
+
     '--sp-bg-color': '#f2f2f2', // 一级/三级背景
     '--sp-ln-color': '#8a8a8a', // 次要文字
     '--sp-white-color': '#fff', //
@@ -1098,19 +1105,17 @@ https://lanhuapp.com/web/#/item/project/detailDetach?type=image&pid=12afa61b-9b3
     '--sp-tabbar-height': '50px',
     '--sp-cart-bg': `url(${Green})`,
     '--sp-default-teamlogo': `${GreenLogo}`,
-    '--sp-app-bg-color': '#f2f2f2', // 一级/三级背景
+    '--sp-app-bg-color': '#f2f2f2', // 一级/三级背景，这个为准
     '--sp-bg-primary-color': '#fff', // 二级背景
     '--sp-special-color': '#333' // 主要文字
 
 
-web有问题的主题：
-mobileBlackGold
+深色，黑色背景的主题：
+mobileBlackGold，
 mobileBlackBlue
 mobileDarkBrown
 mobileGreenBlue
 mobileDarkBlueBlue
-
-
 
 
 
@@ -1171,6 +1176,25 @@ one item:  fbItem-details-box
 竞猜主页： 	store.Marketslist
 竞彩主页Item: store.Marketslist :: jcMatchList
 		竞彩更多详情：store.leagueList.oddset
+
+
+
+1，IM体育pricingId 的值是？
+2，状态确认 /loadCashOutValue，的参数betOrderNo形式，他的返回值数组一一一对应
+
+
+
+主题  颜色色值面板：
+https://lanhuapp.com/web/#/item/project/stage?pid=12afa61b-9b31-4d26-8039-a41a036fe8d4&teamId=b7d40ca0-0e15-4b7f-8500-becc1d5c6e75
+
+mobileDarkGreen  #494A4E
+
+
+
+
+
+
+
 
 
 
