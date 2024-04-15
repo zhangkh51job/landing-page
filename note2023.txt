@@ -868,11 +868,11 @@ economy	::  /ɪˈkɒnəmi/		<---->	economic	::  /ˌiːkəˈnɒmɪk/         the 
 
 essence		:: /ˈesns/			<---->	essential		::  /ɪˈsenʃl/
 
+horizon		::  /həˈraɪzn/		<---->	horizontal	:: /ˌhɒrɪˈzɒntl/
+
+refer		::  /rɪˈfɜː(r)/		<---->	referee		:: /ˌrefəˈriː/ ;      reference	::  /ˈrefrəns/
 
 
-金鱼拉丁字母理论中，这些后缀中涉及的字母的象形本源分别是：A（人）、E（眼睛和耳朵）、N（鼻子）、O（嘴巴）、M（手）、T（大地）、S（海洋）、R（太阳，通常表示发散）、Y（谷物。通常表示丰收）等
-
-词根组成的衔生词  ； 衔生词之间的音变
 
 
 represent  	<---->	present
@@ -896,8 +896,9 @@ aʊ   --->  allow，down, about, house     常见的组合 ow  || ou
 
 
 英(DJ音标）、美音(KK)的区别（美音带有较为明显的 儿 化音）：
-音标：			ɒ	---->		ɑː     	 
+音标：			ɒ	---->	ɑː     	 
 o的开音节读音，  əʊ	----> 	o（oʊ）
+air组合读音	      eə(r)	---->	er （标e，读ei音）, 如： hair, fair, pair
 
 ɔ:  长发音变 哦  --->         ɔ:  长发音还是 凹   (美音 发 哦，只能用 ɔ:r 音标)
 ɔ:   	       <-----等价----->      ɔ:r
@@ -956,14 +957,55 @@ answer:
 
 
 
+母语防火墙：
+     该学的学全，该练的练足：语言跟思维是一回事，残缺的语言内容是不可能形成思维体系也不可能形成语言能力的
+     增强规则意思，精准执行
 
 
+--------------------
+
+金鱼拉丁字母理论中，这些后缀中涉及的字母的象形本源分别是：A（人）、E（眼睛和耳朵）、N（鼻子）、O（嘴巴）、M（手）、T（大地）、S（海洋）、R（太阳，通常表示发散）、Y（谷物。通常表示丰收）等
+
+
+词根组成的衔生词  ； 衔生词之间的音变
+typical kind:  
+词根：san    =healthy,表示"健康的"
+衔生词： insane, sanity, sanative；   sane 与 sanity , sanative 之间的音变
+
+词根词缀：
+stinct  --> 
+1. =prick,表示"刺,刺激"; 2. 引申为火焰
+如： distinct: 红白相间,  引申为， 截然不同的，完全分开的，清晰，明白的，明显的
+
+thet  -->   to put,place,表示"放,引申为论文,观点"
+如: synthetic：科学论文    引申为    实验室制造出来的， 合成的， 人造的
+
+em  ---> =take/procure,表示"拿,获得,拿走后[变空]"
+如: premium
+
+cure  ---> =care,表示"关心", 引申为   治疗， 治愈
+如： procure 
+
+
+
+
+见词读音，听音写词，听音记词
+
+
+学校只教了书本知识，没教理论，没练能力，没有动手操作，没教如何分辨 书本知识 的对错，更没有进行 社会实践与检验。
+当进入现实，一切从零开始学习或摸索
+
+
+
+
+
+
+
+-------------------------------	sports	-------------------------------
 
 各odds块到底需要展示几块，再加个排序字段
 搜索接口什么时候好
 传入语言参数没有数据
-
-
 
 
 @PT-key, please pass country parameter according to this                                                                                                                         
@@ -977,11 +1019,6 @@ answer:
  SPANISH "es_ES"
 
 
-
-
-
-
-
 flex的布局，子元素高度拉升 align-items: strength; 再设子元素height：100%；则冲突不生效；
 
 
@@ -993,11 +1030,9 @@ flex的布局，子元素高度拉升 align-items: strength; 再设子元素heig
 
 
 questions:
-样式对比一下bc.game 再调调。   bc.game的赔率是高亮的， 咱们的太暗了。  -- 一样
+样式对比一下bc.game 再调调。   bc.game的赔率是高亮的， 咱们的太暗了。  			-- 		一样
 
 mask-image: linear-gradient(90deg, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 100%);
-
-
 
 
 
@@ -1006,8 +1041,6 @@ mask-image: linear-gradient(90deg, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 100%);
 45323		1	【int102--国际化体育--h5】预投注窗口：需要加一个赔率设置按钮	EGSPORT彩票体育
 
 
-
-https://zentao.uuuhgnmgnd.com/zentao/bug-view-45445.html###
 
 
 webpack://kgsport-cms/sport-[name]/src/apps/kg-mobile/components/market-item/odds/index.tsx  -->
@@ -1028,9 +1061,6 @@ E:\kgsport-bet-cn\src\common\hooks_kg\useJCsport.hook.ts
 
 
 
-
-
-
 kgsport-bet-cn 中文体育 
 线上环境：https://kc228-1.wk355.com/
 测试环境： https://kgtest3-1.wk355.com/
@@ -1044,16 +1074,12 @@ src\apps\web-template-a\live-data\index.tsx	:: DataView
 src\apps\common-web-page\data-feeds\src\index.tsx
 
 
-bet chain:
+bet object chain:
 src\apps\kg-mobile\__home\index.tsx
 src\apps\kg-mobile\__home\BetMarket.tsx
 src\apps\kg-mobile\components\market-list\index.tsx
 src\apps\kg-mobile\components\market-item\index.tsx
 src\apps\common-page\popluar-market\index.tsx
-
-
-波胆：
-marketList.matches.popular.list.slice(0, 2).sels.sel  combo串关数据在sels上
 
 
 
@@ -1073,7 +1099,7 @@ http://192.168.30.23:8080/api-bty/api/agent/queryMatchLive?eventId=2389607
 
 
 
-一额
+
 
 
 https://kgtest3-1.wk355.com/api-bty/api/agent/queryMatchInformation?sportId=1&eventId=2813448
@@ -1119,10 +1145,6 @@ mobileDarkBlueBlue
 
 
 
-E:\kgsport-bet-cn\src\assets\svg-sprites\data
-
-
-
 marketStore.marketList
 					 :[item].matches.info.period
 
@@ -1130,6 +1152,21 @@ marketStore.marketList
 
 
 
+mobile-template-a 主界面 odds data chain:
+
+marketData.matches.oddset.sea: [BettypeLabel, pr]
+				      .pod/*popular*/.[pof,   poe,     list: any[ {sels,  oda,  sea, } ], ] // pof, poe原字段，list新增
+				      
+				      .od中 pof 对应于波胆
+																		point: sel.pob,
+
+波胆：
+marketList.matches.popular.list.slice(0, 2).sels.sel  combo串关数据在sels上
+
+
+
+键盘
+src\components\mobile-shoping-car\src\keyboard\index.tsx
 
 
 /opt/kgtest3-1/cms-web
@@ -1140,13 +1177,7 @@ marketStore.marketList
 
 
 
-http://localhost:8080/E:/kgsport-bet-cn/src/themes/E:/kgsport-bet-cn/src/apps/common-page/jc-sport/src/item/item.less
 
-
-http://localhost:8080/E:/kgsport-bet-cn/src/themes/E:/kgsport-bet-cn/src/apps/common-page/jc-sport/src/details/jcsportdetails.less
-
-
-apps\kg-mobile\components\market-item\index.tsx
 
 
 
@@ -1188,11 +1219,6 @@ one item:  fbItem-details-box
 https://lanhuapp.com/web/#/item/project/stage?pid=12afa61b-9b31-4d26-8039-a41a036fe8d4&teamId=b7d40ca0-0e15-4b7f-8500-becc1d5c6e75
 
 mobileDarkGreen  #494A4E
-
-
-
-
-
 
 
 

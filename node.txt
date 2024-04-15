@@ -223,6 +223,24 @@ const student1: Student， class Student{ ....},   Student为类型声明    		<
 const student1: InstanceType<typeof Student> = new Student()，const Student = class { .... }， Student为变量声明
 
 
+is， 放在函数返回中，做类型保护；
+断言的两种写法方式；(x as X).y;   <(X>x).y
+交叉对象：对象中同名属性分别进行交叉（大部分为never）；不同名属性进行 与；同名属性与不同名属性一起组合为新的对象；
+交叉类型，解决类型的继承问题
+
+interface: 
+	可以重复定义添加属性(type重复定义，则会重置）；
+	面向对象的场景 或者  需要修改全局类型的 场合，使用interface，否则使用type
+type 方便做类型拓展 --->  &，  |
+
+
+设置strictNullChecks: true:
+可选参数会被自动加上 | undefined
+
+
+
+
+
  固有字符串操作类型：
   Uppercase<StringType>
  Lowercase<StringType>
