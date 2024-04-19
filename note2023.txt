@@ -380,11 +380,12 @@ cms\cms-service\src\agent\index.ts   -->  (export all）
 重音之下，元音没有发短元音的例外有比如：
 lever  ::    /ˈliːvə(r)/ ，   但美音 也可读作 [ˈlevər]
 item	  ::   /ˈaɪtəm/，  island
+legal  ::   /ˈliːɡl/
 
 
 
 
-
+le
 
 
 
@@ -899,6 +900,7 @@ aʊ   --->  allow，down, about, house     常见的组合 ow  || ou
 音标：			ɒ	---->	ɑː     	 
 o的开音节读音，  əʊ	----> 	o（oʊ）
 air组合读音	      eə(r)	---->	er （标e，读ei音）, 如： hair, fair, pair
+are组合		      eə     ---->	ɛr | er （标e，读ei音）, 如：fare, care, dare
 
 ɔ:  长发音变 哦  --->         ɔ:  长发音还是 凹   (美音 发 哦，只能用 ɔ:r 音标)
 ɔ:   	       <-----等价----->      ɔ:r
@@ -994,6 +996,14 @@ cure  ---> =care,表示"关心", 引申为   治疗， 治愈
 
 学校只教了书本知识，没教理论，没练能力，没有动手操作，没教如何分辨 书本知识 的对错，更没有进行 社会实践与检验。
 当进入现实，一切从零开始学习或摸索
+
+
+
+
+
+
+console.log('aaa')
+
 
 
 
