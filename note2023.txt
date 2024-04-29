@@ -873,6 +873,8 @@ horizon		::  /həˈraɪzn/		<---->	horizontal	:: /ˌhɒrɪˈzɒntl/
 
 refer		::  /rɪˈfɜː(r)/		<---->	referee		:: /ˌrefəˈriː/ ;      reference	::  /ˈrefrəns/
 
+democracy	:: /dɪˈmɒkrəsi/	<---->	democratic	:: /ˌdeməˈkrætɪk/   	democratise	::  /di'mɔkrətaiz/
+
 
 
 
@@ -1001,8 +1003,124 @@ cure  ---> =care,表示"关心", 引申为   治疗， 治愈
 
 
 
+发音待解释：
+decisive	:: /dɪˈsaɪsɪv/		<--->		decision :: /dɪ'sɪʒ(ə)n/   
+	e不仅仅影响它稍前的 i， 如rice，bike，也影响 重音分隔符隔开的   一段字母的发音， 比如cisive
 
-console.log('aaa')
+village	:: /'vɪlɪdʒ/ (ge作为一个整体，e也发音了,一起读作dʒ, 故 i 读作 ɪ)	<---->	
+video 	::  /'vɪdɪəʊ/  (o也发音了əʊ， 故 i 读作 ɪ)
+violent   :: /ˈvaɪələnt/  ( io 组合，发前面 i 的双元音 ai） 
+
+
+
+	---->  ********  发音优先级：元音组合发前面元音的双元音 > 元辅音结尾对元音的影响 > 重音前面发元音的短元音
+
+
+
+
+例外的发音：
+待解析发音优先级：
+convince :: [kənˈvɪns]   <----->  decisive	:: /dɪˈsaɪsɪv/	
+	暂时解释：只要是 vinc 词根中的 i， 都发 ɪ 音
+
+di组合，在词首，发dɪ， 不适用以上规则
+	division	::  /dɪˈvɪʒn/；		disaster  ::  /dɪˈzɑːstə(r)/
+
+
+legal  	:: /ˈliːɡl/(e 例外发 i:  音)  	<----->	  legality	::   	/liː'gælɪtɪ/
+
+
+
+
+
+
+
+advertise 为什么没有重音符分隔
+音节：包含一个元音或一个元音跟别的辅音结合而成的发音单位
+	英语要求每个单词中，至少要有一个重读音节
+
+英语声调变化仅仅影响感情色彩（英语语音延绵多变）； 汉语声调变化会变化另一个词（汉语字正腔圆，清清楚楚）
+
+
+
+
+
+
+spect = look/see  表示“看”
+	circumspect,  suspect,  inspect,  respect,  prospect,	perspective;   prospective;
+
+sent = feel, 表示“感觉”
+	scent， consent,   sentiment,   presentiment
+
+cept/ceive = take/hold/seize 表示“拿， 抓，握住”
+	intercept,  except,  concept,  receipt,  deceptive(deceive),    susceptible
+	conceive,  deceive,  perceive,  receive
+
+ordin = order 表示“命令，顺序”
+	coordinate,  extraordinary,  inordinate,  insubordinate
+
+prehend = catch 表示“抓住”
+	comprehend,  apprehend,  reprehend
+
+dict	= say/assert 表示“说话，断言，写”
+	contradict,  dictate,   predict,   indict
+
+tend = stretch 表示“伸展，趋向”
+	contend, attend, distend,  intend,  pretend
+
+vict/vinc = conquer/overcome 表示 “征服，克服”
+	convict,  evict, victor
+	convince, evince,  
+
+lic = allure 表示“高兴，美味，引诱”
+	delicate,  delicacy,  delicious,  elicit 
+
+cise = cut/kill 表示“切开，杀”
+	concise,   decisive,   incisive,  precise   ||	  circumcise,  excise,  incise  
+
+plain = flat 表示“平坦，明白”
+	explain,  plain
+plaint = complain 表示“抱怨”
+	plaint,   plaintiff,   complaint,   complain
+
+
+clin = lean/slope  表示“1，倾斜，斜坡，2，表示床”
+	decline,   incline,   recline   ||  clinic,  declination
+
+
+vert = turn 表示“转”
+	advertise,  avert,   controvert,  convert,  divert,  invert,  invert,  pervert,   revert,   subvert
+
+prob = 1, = test 表示“测试，证明”;2，正直
+	prob	||	probability,  probity,  
+
+vil	=  base, 表示“卑劣”
+	revile,  vilify		||  	vile		||    	villain
+
+cid	= 1, = fall, 表示“落下，降临”；  2，引申为偶然发生
+	coincide  	||	accident,  coincidence,  incident   occident,  
+ori	=  rise/begin, 表示“升起，开始”
+	orient <---reverse---> occident,     disorient  ||	oriental,  orientation
+
+
+tempt = try，表示“尝试，使想要，引诱”
+	attempt,  contemn, tempt 		||	contempt	||    contemptible,  contemptuous,  temptatious 	
+
+
+vis  =  1，separate, 表示“分开”2， =see，表示“看， 查”
+	devise,  advise,  revise,  previse,  supervise,  visualize   ||    device,  advice, revision,  division
+
+aster = 表示“卑称，劣质”
+	disaster
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1234,7 +1352,7 @@ mobileDarkGreen  #494A4E
 
 
 
-
-
+https://kc228-1.wk355.com/home?type=SPORT， 进入bet365旧版
+41387
 
 
