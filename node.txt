@@ -224,7 +224,7 @@ const student1: InstanceType<typeof Student> = new Student()，const Student = c
 
 
 is， 放在函数返回中，做类型保护；
-断言的两种写法方式；(x as X).y;   <(X>x).y
+断言的两种写法方式；(x as X).y;   (<X>x).y
 交叉对象：对象中同名属性分别进行交叉（大部分为never）；不同名属性进行 与；同名属性与不同名属性一起组合为新的对象；
 交叉类型，解决类型的继承问题
 

@@ -875,7 +875,7 @@ refer		::  /rɪˈfɜː(r)/		<---->	referee		:: /ˌrefəˈriː/ ;      reference	
 
 democracy	:: /dɪˈmɒkrəsi/	<---->	democratic	:: /ˌdeməˈkrætɪk/   	democratise	::  /di'mɔkrətaiz/
 
-
+valid		::  /ˈvælɪd/		<---->	validity	:: /və'lɪdɪtɪ/   lidity使前面 a 发音从 æ 变 ə
 
 
 represent  	<---->	present
@@ -900,16 +900,24 @@ aʊ   --->  allow，down, about, house     常见的组合 ow  || ou
 
 英(DJ音标）、美音(KK)的区别（美音带有较为明显的 儿 化音）：
 音标：			ɒ	---->	ɑː     	 
-o的开音节读音，  əʊ	----> 	o（oʊ）
+o的开音节读音，  	əʊ	----> 	o（oʊ）
 air组合读音	      eə(r)	---->	er （标e，读ei音）, 如： hair, fair, pair
 are组合		      eə     ---->	ɛr | er （标e，读ei音）, 如：fare, care, dare
+u 发音 hurry, current	  /'hʌrɪ/  --->   /ˈhɜːri/;         /ˈkʌrənt/   --->   /ˈkɜːrənt/
+
+ary组合			ri	--->	  eri	;   voluntary, military, legendary
+
+由此可知，英语单词要发准每一个音；但在英语句子不在乎每一个音（即使某一个音发错了也没关系，要连贯听懂这个句子）
+单词发音，学习时战术重视，在句子中连串时重点在句子
+句子发音：重点听每一个重音
+
 
 ɔ:  长发音变 哦  --->         ɔ:  长发音还是 凹   (美音 发 哦，只能用 ɔ:r 音标)
 ɔ:   	       <-----等价----->      ɔ:r
 
 		   ɒ	  --->   ɑː     
 		  [e]	  --->   [ɛ]   (需要卷舌)
-a的双元音 [eɪ]   --->   [e]   标识不同，发音相同
+a的双元音   [eɪ]   --->   [e]   标识不同，发音相同
 		  ɪə     --->   ɪr
 	          eə   ---->   ɛr
 		  ʊə  ----->  ʊr
@@ -1017,18 +1025,32 @@ violent   :: /ˈvaɪələnt/  ( io 组合，发前面 i 的双元音 ai）
 
 
 
+i 在 n前， 都发 ɪ 音
+le后面若有a， 则e发音 i:， 不管le前是否有重音
 
 例外的发音：
 待解析发音优先级：
 convince :: [kənˈvɪns]   <----->  decisive	:: /dɪˈsaɪsɪv/	
-	暂时解释：只要是 vinc 词根中的 i， 都发 ɪ 音
+prince    :: /prɪns/
+	解释：i 在 n前， 都发 ɪ 音
 
 di组合，在词首，发dɪ， 不适用以上规则
-	division	::  /dɪˈvɪʒn/；		disaster  ::  /dɪˈzɑːstə(r)/
+	division	::  /dɪˈvɪʒn/；		disaster  ::  /dɪˈzɑːstə(r)/ 。。。。
+	仅仅 digest  ::/daɪˈdʒest/(digest的系列衔生词), 		diverse :: /daɪˈvɜːs/
+
+valid		::  /ˈvælɪd/		<---->	validity	:: /və'lɪdɪtɪ/   lidity使前面 a 发音从 æ 变 ə
 
 
 legal  	:: /ˈliːɡl/(e 例外发 i:  音)  	<----->	  legality	::   	/liː'gælɪtɪ/
+plenary	:: /ˈpliːnəri/			<----->	  plentiful	::	/ˈplentɪfl/
+	解析：le后面若有a， 则e发音 i:，又如：delegate  :: /ˈdelɪɡət/
 
+
+
+
+规则之外的发音：
+legal,  item , island,  convince,  di组合在词首（除了digest, diverse）
+potent,  
 
 
 
@@ -1113,13 +1135,55 @@ vis  =  1，separate, 表示“分开”2， =see，表示“看， 查”
 aster = 表示“卑称，劣质”
 	disaster
 
+sol  =  1, = alone，表示“单独”；2，= sun，表示“太阳”
+	isolate,  desolate,  
+
+potent, pot  =  power, ability, 表示“力量”
+	potential,  impotence,  
+
+sper   =   hope，表示“希望”
+	prosper	||	desperate,  prosperous,    ||   prosperity,   
+
+
+fend = to strike, 表示“打击”
+	defend,  offend
+
+plen  =  full/fill, 表示“满，填满”
+	deplenish,  replenish   ||	plenary,  plentiful
+
+bridg  = short，表示“短，缩短”
+	abridge	||	abridgement,  bridge（bridg短,缩短+e→桥使路变短）
+
+neo = 新；  nat = 出生的，本土的
+	neonate
+
+cent	1，=hundred，表示“百，百分之”;  2，=sing/song，表示“唱，歌”
+	accent,  incentive	;	century, centennial
+ann/enn = year
+	centennial,  annual,  
+
+don  = give，表示“给予”
+	condone,   donate,    pardon   ||    donor
 
 
 
 
 
 
+complaint 		<---> 	 	compliant
 
+
+
+
+
+英语喜静不喜动，即使用动词尽量用弱化的动词
+
+
+
+
+
+
+英文发音系统,  英文专门的语音训练
 
 
 
@@ -1130,6 +1194,8 @@ aster = 表示“卑称，劣质”
 
 
 -------------------------------	sports	-------------------------------
+
+
 
 各odds块到底需要展示几块，再加个排序字段
 搜索接口什么时候好
@@ -1303,7 +1369,9 @@ src\components\mobile-shoping-car\src\keyboard\index.tsx
 
 
 
-
+js中8个可访问的构造器Number, Boolean,  String, Object,   Array,   RegExp,    Error,    Date:    XXX.__proto__ ===  Function.prototype
+Argument仅仅在函数调用时有JS引擎创建
+Math, JSON一对象形式存在： YYY.__prototype === Object.prototype
 
 
 
