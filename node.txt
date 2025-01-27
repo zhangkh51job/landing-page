@@ -244,9 +244,9 @@ type 方便做类型拓展 --->  &，  |
 
  固有字符串操作类型：
   Uppercase<StringType>
- Lowercase<StringType>
- Capitalize<StringType>
- Uncapitalize<StringType>
+  Lowercase<StringType>
+  Capitalize<StringType>
+  Uncapitalize<StringType>
 
 
 ts模块发布：
@@ -364,15 +364,10 @@ Unable to resolve dependency tree error when installing npm packages：
 
 
 
-预定号码租用??
-getAdditionalService:返回呼叫转移号码的附加服务。
 
 
 
-删除项:
-  微信管理
-  weChatManage
-  userData_weChatManage
+
 
 
 
@@ -386,9 +381,6 @@ https://lanhuapp.com/web/#/item?fid=all&commonly=all
 
 
 
-泰国手动版
-1，底部栏出现 加粉任务    2，home页出现 申请加粉 条，隐藏 扫码条
-3，Mine页有   微信管理、个人中心   导航栏
 
 http://localhost:8088/?ic=undefined&id=undefined
 
